@@ -31,10 +31,12 @@ malware
 cloud
 sandbox
 trusted
+automatic
 ndss
 usenix
 acm
-ieee'''
+ieee
+''' + '\n'.join(str(i) for i in range(2000, 2021))
 
 filename = os.path.join(os.path.dirname(
     os.path.realpath(__file__)), "../bookshelf.tsv")
