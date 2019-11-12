@@ -20,7 +20,7 @@ papers = dict() # title -> data
 TITLE = 'Title\tLink\ttag00\ttag01\ttag02\ttag03\ttag04\ttag05\ttag06\ttag07\ttag08\ttag09\ttag10\ttag11\ttag12\ttag13\ttag14'
 
 query_template = "https://dblp.org/search/publ/api?q=year:{year}%20venue:{venue}&h={limit}&format=json"
-logfile_path = "../bookshelf.tsv"
+logfile_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../bookshelf.tsv")
 
 def search_per_venue(venue: str, year: str):
     r = requests.get(
@@ -64,7 +64,7 @@ def filter_per_keyword(hits, keyword):
     for hit in hits:
         hit   = hit['info']
         if 'ee' not in hit:
-            print("WARNING: no url " + hit["title"])
+            print(bcolors.WARNING + "WARNING - no url for: " + hit["title"], bcolors.ENDC)
             continue
         
         title = hit['title']
@@ -77,8 +77,8 @@ def filter_per_keyword(hits, keyword):
             url = avoid_broken_ndss_links(url)
             abstract = requests.get(url).content
         except ConnectionError:
-            print("connection error on %s. URL: %s" % (title, url))
-            abstract = None
+            print(bcolors.FAIL + "ERROR - connection error on %s. URL: %s" % (title, url), bcolors.ENDC)
+            continue
 
         keywords_ok = []
         for keyword in keywords:
