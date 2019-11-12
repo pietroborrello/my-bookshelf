@@ -1,128 +1,128 @@
 Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag11	tag12	tag13	tag14
-[ACM Conference on Computer and Communications Security 2009] On the difficulty of software-based attestation of embedded devices.	https://doi.org/10.1145/1653662.1653711	embedded
-[ACM Conference on Computer and Communications Security 2011] Poster - practical embedded remote attestation using physically unclonable functions.	https://dl.acm.org/citation.cfm?id=2093496	embedded
-[ACM Conference on Computer and Communications Security 2011] VIPER - verifying the integrity of PERipherals' firmware.	https://doi.org/10.1145/2046707.2046711	firmware
-[ACM Conference on Computer and Communications Security 2013] Constructive and destructive aspects of embedded security in the internet of things.	https://doi.org/10.1145/2508859.2516757	embedded
-[ACM Conference on Computer and Communications Security 2013] Enhanced embedded device security by combining hardware-based trust mechanisms.	https://doi.org/10.1145/2508859.2512509	embedded
-[ACM Conference on Computer and Communications Security 2013] Third international workshop on trustworthy embedded devices (TrustED 2013).	https://doi.org/10.1145/2508859.2509029	embedded
-[ACM Conference on Computer and Communications Security 2014] Do You Hear What I Hear? - Fingerprinting Smart Devices Through Embedded Acoustic Components.	https://doi.org/10.1145/2660267.2660325	embedded
-[ACM Conference on Computer and Communications Security 2014] Fourth International Workshop on Trustworthy Embedded Devices (TrustED 2014).	https://doi.org/10.1145/2660267.2660384	embedded
-[ACM Conference on Computer and Communications Security 2015] Fifth International Workshop on Trustworthy Embedded Devices (TrustED 2015).	https://doi.org/10.1145/2810103.2812626	embedded
-[ACM Conference on Computer and Communications Security 2015] SEDA - Scalable Embedded Device Attestation.	https://doi.org/10.1145/2810103.2813670	embedded
-[ACM Conference on Computer and Communications Security 2016] C-FLAT - Control-Flow Attestation for Embedded Systems Software.	https://doi.org/10.1145/2976749.2978358	embedded
-[ACM Conference on Computer and Communications Security 2016] PIPSEA - A Practical IPsec Gateway on Embedded APUs.	https://doi.org/10.1145/2976749.2978329	embedded
-[ACM Conference on Computer and Communications Security 2016] Scalable Graph-based Bug Search for Firmware Images.	https://doi.org/10.1145/2976749.2978370	firmware
-[ACM Conference on Computer and Communications Security 2016] Sixth International Workshop on Trustworthy Embedded Devices (TrustED 2016).	https://doi.org/10.1145/2976749.2990489	embedded
-[ACM Conference on Computer and Communications Security 2017] FirmUSB - Vetting USB Device Firmware using Domain Informed Symbolic Execution.	https://doi.org/10.1145/3133956.3134050	firmware
-[CSET @ USENIX Security Symposium 2017] Measuring the Effectiveness of Embedded Phishing Exercises.	https://www.usenix.org/conference/cset17/workshop-program/presentation/siadatii	embedded
-[CSET @ USENIX Security Symposium 2017] Metrics for runtime detection of allocators in binaries.	https://www.usenix.org/conference/cset17/workshop-program/presentation/degoer	embedded
-[IEEE Symposium on Security and Privacy 2010] Inspector Gadget - Automated Extraction of Proprietary Gadgets from Malware Binaries.	https://doi.org/10.1109/SP.2010.10	embedded
-[IEEE Symposium on Security and Privacy 2010] Tamper Evident Microprocessors.	https://doi.org/10.1109/SP.2010.19	embedded
-[IEEE Symposium on Security and Privacy 2010] Towards Static Flow-Based Declassification for Legacy and Untrusted Programs.	https://doi.org/10.1109/SP.2010.14	embedded
-[IEEE Symposium on Security and Privacy 2012] Don't Trust Satellite Phones - A Security Analysis of Two Satphone Standards.	https://doi.org/10.1109/SP.2012.18	firmware
-[IEEE Symposium on Security and Privacy 2013] Ghost Talk - Mitigating EMI Signal Injection Attacks against Analog Sensors.	https://doi.org/10.1109/SP.2013.20	embedded
-[IEEE Symposium on Security and Privacy 2013] Welcome to the Entropics - Boot-Time Entropy in Embedded Devices.	https://doi.org/10.1109/SP.2013.46	embedded
-[IEEE Symposium on Security and Privacy 2014] Using Frankencerts for Automated Adversarial Testing of Certificate Validation in SSL/TLS Implementations.	https://doi.org/10.1109/SP.2014.15	embedded
-[IEEE Symposium on Security and Privacy 2015] A Messy State of the Union - Taming the Composite State Machines of TLS.	https://doi.org/10.1109/SP.2015.39	embedded
-[IEEE Symposium on Security and Privacy 2015] Cross-Architecture Bug Search in Binary Executables.	https://doi.org/10.1109/SP.2015.49	embedded	firmware
-[IEEE Symposium on Security and Privacy 2015] Understanding and Monitoring Embedded Web Scripts.	https://doi.org/10.1109/SP.2015.57	embedded
-[IEEE Symposium on Security and Privacy 2016] CaSE - Cache-Assisted Secure Execution on ARM Processors.	https://doi.org/10.1109/SP.2016.13	embedded
-[IEEE Symposium on Security and Privacy 2016] Following Devil's Footprints - Cross-Platform Analysis of Potentially Harmful Libraries on Android and iOS.	https://doi.org/10.1109/SP.2016.29	embedded
-[IEEE Symposium on Security and Privacy 2016] LAVA - Large-Scale Automated Vulnerability Addition.	https://doi.org/10.1109/SP.2016.15	embedded
-[IEEE Symposium on Security and Privacy 2017] How They Did It - An Analysis of Emission Defeat Devices in Modern Automobiles.	https://doi.org/10.1109/SP.2017.66	embedded	firmware
-[IEEE Symposium on Security and Privacy 2017] IoT Goes Nuclear - Creating a ZigBee Chain Reaction.	https://doi.org/10.1109/SP.2017.14	firmware
-[IEEE Symposium on Security and Privacy 2017] NORAX - Enabling Execute-Only Memory for COTS Binaries on AArch64.	https://doi.org/10.1109/SP.2017.30	embedded
-[IEEE Symposium on Security and Privacy 2017] Protecting Bare-Metal Embedded Systems with Privilege Overlays.	https://doi.org/10.1109/SP.2017.37	embedded
-[IEEE Symposium on Security and Privacy 2018] Blue Note - How Intentional Acoustic Interference Damages Availability and Integrity in Hard Disk Drives and Operating Systems.	https://doi.org/10.1109/SP.2018.00050	embedded	firmware
-[IEEE Symposium on Security and Privacy 2018] Compiler-Assisted Code Randomization.	https://doi.org/10.1109/SP.2018.00029	embedded
-[IEEE Symposium on Security and Privacy 2018] Study and Mitigation of Origin Stripping Vulnerabilities in Hybrid-postMessage Enabled Mobile Applications.	https://doi.org/10.1109/SP.2018.00043	embedded
-[IEEE Symposium on Security and Privacy 2018] Towards Security and Privacy for Multi-user Augmented Reality - Foundations with End Users.	https://doi.org/10.1109/SP.2018.00051	embedded
-[IEEE Symposium on Security and Privacy 2018] Understanding Linux Malware.	https://doi.org/10.1109/SP.2018.00054	embedded
-[IEEE Symposium on Security and Privacy 2019] Dominance as a New Trusted Computing Primitive for the Internet of Things.	https://doi.org/10.1109/SP.2019.00084	firmware
-[IEEE Symposium on Security and Privacy 2019] Hard Drive of Hearing - Disks that Eavesdrop with a Synthesized Microphone.	https://doi.org/10.1109/SP.2019.00008	embedded
-[IEEE Symposium on Security and Privacy 2019] Resident Evil - Understanding Residential IP Proxy as a Dark Service.	https://doi.org/10.1109/SP.2019.00011	embedded
-[IEEE Symposium on Security and Privacy 2019] Self-Encrypting Deception - Weaknesses in the Encryption of Solid State Drives.	https://doi.org/10.1109/SP.2019.00088	firmware
-[IEEE Symposium on Security and Privacy 2019] SensorID - Sensor Calibration Fingerprinting for Smartphones.	https://doi.org/10.1109/SP.2019.00072	embedded	firmware
-[IEEE Symposium on Security and Privacy 2019] SoK - Security Evaluation of Home-Based IoT Deployments.	https://doi.org/10.1109/SP.2019.00013	embedded
-[IEEE Symposium on Security and Privacy 2019] Tap 'n Ghost - A Compilation of Novel Attack Techniques against Smartphone Touchscreens.	https://doi.org/10.1109/SP.2019.00037	embedded
-[IEEE Symposium on Security and Privacy 2019] Threshold ECDSA from ECDSA Assumptions - The Multiparty Case.	https://doi.org/10.1109/SP.2019.00024	embedded
-[IEEE Symposium on Security and Privacy 2019] True2F - Backdoor-Resistant Authentication Tokens.	https://doi.org/10.1109/SP.2019.00048	embedded	firmware
-[IEEE Symposium on Security and Privacy Workshops 2012] Privacy Control in Smart Phones Using Semantically Rich Reasoning and Context Modeling.	https://doi.org/10.1109/SPW.2012.27	embedded
-[IEEE Symposium on Security and Privacy Workshops 2012] Semantic Comparison of Security Policies - From Access Control Policies to Flow Properties.	https://doi.org/10.1109/SPW.2012.33	embedded
-[IEEE Symposium on Security and Privacy Workshops 2012] Slender PUF Protocol - A Lightweight, Robust, and Secure Authentication by Substring Matching.	https://doi.org/10.1109/SPW.2012.30	embedded
-[IEEE Symposium on Security and Privacy Workshops 2013] On Evaluating IP Traceback Schemes - A Practical Perspective.	https://doi.org/10.1109/SPW.2013.13	embedded
-[IEEE Symposium on Security and Privacy Workshops 2017] Lua Code - Security Overview and Practical Approaches to Static Analysis.	https://doi.org/10.1109/SPW.2017.38	embedded
-[IEEE Symposium on Security and Privacy Workshops 2018] A Binary Analysis Approach to Retrofit Security in Input Parsing Routines.	https://doi.org/10.1109/SPW.2018.00049	embedded	firmware
-[NDSS 2012] SMART - Secure and Minimal Architecture for (Establishing Dynamic) Root of Trust.	https://www.ndss-symposium.org/ndss2012/smart-secure-and-minimal-architecture-establishing-dynamic-root-trust	embedded
-[NDSS 2013] When Firmware Modifications Attack - A Case Study of Embedded Exploitation.	https://www.ndss-symposium.org/ndss2013/when-firmware-modifications-attack-case-study-embedded-exploitation	embedded	firmware
-[NDSS 2014] AVATAR - A Framework to Support Dynamic Security Analysis of Embedded Systems' Firmwares.	https://www.ndss-symposium.org/ndss2014/avatar-framework-support-dynamic-security-analysis-embedded-systems-firmwares	embedded	firmware
-[NDSS 2015] DeepDroid - Dynamically Enforcing Enterprise Policy on Android Devices.	https://www.ndss-symposium.org/ndss2015/deepdroid-dynamically-enforcing-enterprise-policy-android-devices	firmware
-[NDSS 2015] Firmalice - Automatic Detection of Authentication Bypass Vulnerabilities in Binary Firmware.	https://www.ndss-symposium.org/ndss2015/firmalice-automatic-detection-authentication-bypass-vulnerabilities-binary-firmware	embedded	firmware
-[NDSS 2016] Are these Ads Safe - Detecting Hidden Attacks through the Mobile App-Web Interfaces.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/ads-safe-detecting-hidden-attacks-through-mobile-app-web-interfaces.pdf	embedded
-[NDSS 2016] Driller - Augmenting Fuzzing Through Selective Symbolic Execution.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/driller-augmenting-fuzzing-through-selective-symbolic-execution.pdf	firmware
-[NDSS 2016] Enabling Practical Software-defined Networking Security Applications with OFX.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/enabling-practical-software-defined-networking-security-applications-ofx.pdf	embedded
-[NDSS 2016] Extract Me If You Can - Abusing PDF Parsers in Malware Detectors.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/extract-me-if-you-can-abusing-pdf-parsers-malware-detectors.pdf	embedded
-[NDSS 2016] Free for All! Assessing User Data Exposure to Advertising Libraries on Android.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/free-for-all-assessing-user-data-exposure-advertising-libraries-android.pdf	embedded
-[NDSS 2016] Leakage-Resilient Layout Randomization for Mobile Devices.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/leakage-resilient-layout-randomization-mobile-devices.pdf	embedded
-[NDSS 2016] OpenSGX - An Open Platform for SGX Research.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/opensgx-open-platform-sgx-research.pdf	firmware
-[NDSS 2016] Towards Automated Dynamic Analysis for Linux-based Embedded Firmware.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/towards-automated-dynamic-analysis-linux-based-embedded-firmware.pdf	embedded	firmware
-[NDSS 2016] What Mobile Ads Know About Mobile Users.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/what-mobile-ads-know-about-mobile-users.pdf	embedded
-[NDSS 2016] discovRE - Efficient Cross-Architecture Identification of Bugs in Binary Code.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/discovre-efficient-cross-architecture-identification-bugs-binary-code.pdf	firmware
-[NDSS 2017] Hey, My Malware Knows Physics! Attacking PLCs with Physical Model Aware Rootkit.	https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/hey-my-malware-knows-physics-attacking-plcs-physical-model-aware-rootkit/	embedded	firmware
-[NDSS 2017] Internet-scale Probing of CPS - Inference, Characterization and Orchestration Analysis.	https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/internet-scale-probing-cps-inference-characterization-and-orchestration-analysis/	embedded
-[NDSS 2017] T-SGX - Eradicating Controlled-Channel Attacks Against Enclave Programs.	https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/t-sgx-eradicating-controlled-channel-attacks-against-enclave-programs/	firmware
-[NDSS 2018] Automated Generation of Event-Oriented Exploits in Android Hybrid Apps.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_04B-3_Yang_paper.pdf	embedded
-[NDSS 2018] Decentralized Action Integrity for Trigger-Action IoT Platforms.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_01A-3_Fernandes_paper.pdf	firmware
-[NDSS 2018] IoTFuzzer - Discovering Memory Corruptions in IoT Through App-based Fuzzing.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_01A-1_Chen_paper.pdf	embedded	firmware
-[NDSS 2018] KeyDrown - Eliminating Software-Based Keystroke Timing Side-Channel Attacks.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_04B-1_Schwarz_paper.pdf	embedded
-[NDSS 2018] Riding out DOMsday - Towards Detecting and Preventing DOM Cross-Site Scripting.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_07A-4_Melicher_paper.pdf	embedded
-[NDSS 2018] Securing Real-Time Microcontroller Systems through Customized Memory View Switching.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_04B-2_Kim_paper.pdf	embedded	firmware
-[NDSS 2018] What You Corrupt Is Not What You Crash - Challenges in Fuzzing Embedded Devices.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_01A-4_Muench_paper.pdf	embedded	firmware
-[NDSS 2018] When Coding Style Survives Compilation - De-anonymizing Programmers from Executable Binaries.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_06B-2_Caliskan_paper.pdf	embedded
-[NDSS 2019] DIAT - Data Integrity Attestation for Resilient Collaboration of Autonomous Systems.	https://www.ndss-symposium.org/ndss-paper/diat-data-integrity-attestation-for-resilient-collaboration-of-autonomous-systems/	embedded
-[NDSS 2019] Ginseng - Keeping Secrets in Registers When You Distrust the Operating System.	https://www.ndss-symposium.org/ndss-paper/ginseng-keeping-secrets-in-registers-when-you-distrust-the-operating-system/	embedded	firmware
-[NDSS 2019] PeriScope - An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary.	https://www.ndss-symposium.org/ndss-paper/periscope-an-effective-probing-and-fuzzing-framework-for-the-hardware-os-boundary/	firmware
-[NDSS 2019] TIMBER-V - Tag-Isolated Memory Bringing Fine-grained Enclaves to RISC-V.	https://www.ndss-symposium.org/ndss-paper/timber-v-tag-isolated-memory-bringing-fine-grained-enclaves-to-risc-v/	embedded
-[NDSS 2019] Understanding Open Ports in Android Applications - Discovery, Diagnosis, and Security Assessment.	https://www.ndss-symposium.org/ndss-paper/understanding-open-ports-in-android-applications-discovery-diagnosis-and-security-assessment/	embedded
-[USENIX Annual Technical Conference 2019] Supporting Security Sensitive Tenants in a Bare-Metal Cloud.	https://www.usenix.org/conference/atc19/presentation/mosayyebzadeh	firmware
-[USENIX Security Symposium 2009] CCCP - Secure Remote Storage for Computational RFIDs.	http://www.usenix.org/events/sec09/tech/full_papers/salajegheh.pdf	embedded
-[USENIX Security Symposium 2009] NOZZLE - A Defense Against Heap-spraying Code Injection Attacks.	http://www.usenix.org/events/sec09/tech/full_papers/ratanaworabhan.pdf	embedded
-[USENIX Security Symposium 2009] Return-Oriented Rootkits - Bypassing Kernel Code Integrity Protection Mechanisms.	http://www.usenix.org/events/sec09/tech/full_papers/hund.pdf	embedded
-[USENIX Security Symposium 2010] BotGrep - Finding P2P Bots with Structured Graph Analysis.	http://www.usenix.org/events/sec10/tech/full_papers/Nagaraja.pdf	embedded
-[USENIX Security Symposium 2010] PrETP - Privacy-Preserving Electronic Toll Pricing.	http://www.usenix.org/events/sec10/tech/full_papers/Balasch.pdf	embedded
-[USENIX Security Symposium 2011] ADsafety - Type-Based Verification of JavaScript Sandboxing.	http://static.usenix.org/events/sec11/tech/full_papers/Politz.pdf	embedded
-[USENIX Security Symposium 2011] Forensic Triage for Mobile Phones with DEC0DE.	http://static.usenix.org/events/sec11/tech/full_papers/Walls.pdf	embedded
-[USENIX Security Symposium 2011] SHELLOS - Enabling Fast Detection and Forensic Analysis of Code Injection Attacks.	http://static.usenix.org/events/sec11/tech/full_papers/Snow.pdf	embedded
-[USENIX Security Symposium 2011] SMS of Death - From Analyzing to Attacking Mobile Phones on a Large Scale.	http://static.usenix.org/events/sec11/tech/full_papers/Mulliner.pdf	embedded
-[USENIX Security Symposium 2011] Toward Secure Embedded Web Interfaces.	http://static.usenix.org/events/sec11/tech/full_papers/Gourdin.pdf	embedded
-[USENIX Security Symposium 2012] AdSplit - Separating Smartphone Advertising from Applications.	https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/shekhar	embedded
-[USENIX Security Symposium 2012] TARDIS - Time and Remanence Decay in SRAM to Implement Secure Protocols on Embedded Devices without Clocks.	https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/rahmati	embedded
-[USENIX Security Symposium 2013] Dismantling Megamos Crypto - Wirelessly Lockpicking a Vehicle Immobilizer.	https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/verdult	embedded
-[USENIX Security Symposium 2013] FIE on Firmware - Finding Vulnerabilities in Embedded Systems Using Symbolic Execution.	https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/davidson	embedded	firmware
-[USENIX Security Symposium 2013] Let Me Answer That for You - Exploiting Broadcast Information in Cellular Networks.	https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/golde	firmware
-[USENIX Security Symposium 2013] Sancus - Low-cost Trustworthy Extensible Networked Devices with a Zero-software Trusted Computing Base.	https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/noorman	embedded
-[USENIX Security Symposium 2013] Securing Embedded User Interfaces - Android and Beyond.	https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/roesner	embedded
-[USENIX Security Symposium 2014] A Large-Scale Analysis of the Security of Embedded Firmwares.	https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/costin	embedded	firmware
-[USENIX Security Symposium 2014] Brahmastra - Driving Apps to Test the Security of Third-Party Components.	https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/bhoraskar	embedded
-[USENIX Security Symposium 2014] From the Aether to the Ethernet - Attacking the Internet using Broadcast Digital Television.	https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/oren	embedded
-[USENIX Security Symposium 2014] iSeeYou - Disabling the MacBook Webcam Indicator LED.	https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/brocker	firmware
-[USENIX Security Symposium 2015] Boxify - Full-fledged App Sandboxing for Stock Android.	https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/backes	firmware
-[USENIX Security Symposium 2015] GSMem - Data Exfiltration from Air-Gapped Computers over GSM Frequencies.	https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/guri	firmware
-[USENIX Security Symposium 2016] fTPM - A Software-Only Implementation of a TPM Chip.	https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/raj	firmware
-[USENIX Security Symposium 2017] Detecting Android Root Exploits by Learning from Root Providers.	https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/gasparis	embedded
-[USENIX Security Symposium 2017] Inferring Fine-grained Control Flow Inside SGX Enclaves with Branch Shadowing.	https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/lee-sangho	firmware
-[USENIX Security Symposium 2017] Ninja - Towards Transparent Tracing and Debugging on ARM.	https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/ning	embedded
-[USENIX Security Symposium 2017] Same-Origin Policy - Evaluation in Modern Browsers.	https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/schwenk	embedded
-[USENIX Security Symposium 2017] See No Evil, Hear No Evil, Feel No Evil, Print No Evil? Malicious Fill Patterns Detection in Additive Manufacturing.	https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/bayens	firmware
-[USENIX Security Symposium 2017] Towards Practical Tools for Side Channel Aware Software Engineering - 'Grey Box' Modelling for Instruction Leakages.	https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/mccann	embedded
-[USENIX Security Symposium 2017] Understanding the Mirai Botnet.	https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/antonakakis	embedded
-[USENIX Security Symposium 2018] A Bad Dream - Subverting Trusted Platform Module While You Are Sleeping.	https://www.usenix.org/conference/usenixsecurity18/presentation/han	firmware
-[USENIX Security Symposium 2018] ACES - Automatic Compartments for Embedded Systems.	https://www.usenix.org/conference/usenixsecurity18/presentation/clements	embedded
-[USENIX Security Symposium 2018] Inception - System-Wide Security Testing of Real-World Embedded Systems Software.	https://www.usenix.org/conference/usenixsecurity18/presentation/corteggiani	embedded	firmware
-[USENIX Security Symposium 2018] One&Done - A Single-Decryption EM-Based Attack on OpenSSL's Constant-Time Blinded RSA.	https://www.usenix.org/conference/usenixsecurity18/presentation/alam	embedded
-[USENIX Security Symposium 2018] The Dangers of Key Reuse - Practical Attacks on IPsec IKE.	https://www.usenix.org/conference/usenixsecurity18/presentation/felsch	firmware
-[USENIX Security Symposium 2019] Discovering and Understanding the Security Hazards in the Interactions between IoT Devices, Mobile Apps, and Clouds on Smart Home Platforms.	https://www.usenix.org/conference/usenixsecurity19/presentation/zhou	firmware
-[USENIX Security Symposium 2019] Looking from the Mirror - Evaluating IoT Device Security through Mobile Companion Apps.	https://www.usenix.org/conference/usenixsecurity19/presentation/wang-xueqiang	firmware
-[USENIX Security Symposium 2019] The KNOB is Broken - Exploiting Low Entropy in the Encryption Key Negotiation Of Bluetooth BR/EDR.	https://www.usenix.org/conference/usenixsecurity19/presentation/antonioli	firmware
-[USENIX Security Symposium 2019] simTPM - User-centric TPM for Mobile Devices.	https://www.usenix.org/conference/usenixsecurity19/presentation/chakraborty	firmware
-[WOOT @ USENIX Security Symposium 2019] Vacuums in the Cloud - Analyzing Security in a Hardened IoT Ecosystem.	https://www.usenix.org/conference/woot19/presentation/ullrich	firmware
+[ACM Conference on Computer and Communications Security 2009] On the difficulty of software-based attestation of embedded devices.	https://doi.org/10.1145/1653662.1653711	acm	embedded
+[ACM Conference on Computer and Communications Security 2011] Poster - practical embedded remote attestation using physically unclonable functions.	https://dl.acm.org/citation.cfm?id=2093496	acm	embedded
+[ACM Conference on Computer and Communications Security 2011] VIPER - verifying the integrity of PERipherals' firmware.	https://doi.org/10.1145/2046707.2046711	acm	firmware
+[ACM Conference on Computer and Communications Security 2013] Constructive and destructive aspects of embedded security in the internet of things.	https://doi.org/10.1145/2508859.2516757	acm	embedded
+[ACM Conference on Computer and Communications Security 2013] Enhanced embedded device security by combining hardware-based trust mechanisms.	https://doi.org/10.1145/2508859.2512509	acm	embedded
+[ACM Conference on Computer and Communications Security 2013] Third international workshop on trustworthy embedded devices (TrustED 2013).	https://doi.org/10.1145/2508859.2509029	acm	embedded	trusted
+[ACM Conference on Computer and Communications Security 2014] Do You Hear What I Hear? - Fingerprinting Smart Devices Through Embedded Acoustic Components.	https://doi.org/10.1145/2660267.2660325	acm	embedded
+[ACM Conference on Computer and Communications Security 2014] Fourth International Workshop on Trustworthy Embedded Devices (TrustED 2014).	https://doi.org/10.1145/2660267.2660384	acm	embedded	trusted
+[ACM Conference on Computer and Communications Security 2015] Fifth International Workshop on Trustworthy Embedded Devices (TrustED 2015).	https://doi.org/10.1145/2810103.2812626	acm	embedded	trusted
+[ACM Conference on Computer and Communications Security 2015] SEDA - Scalable Embedded Device Attestation.	https://doi.org/10.1145/2810103.2813670	acm	embedded
+[ACM Conference on Computer and Communications Security 2016] C-FLAT - Control-Flow Attestation for Embedded Systems Software.	https://doi.org/10.1145/2976749.2978358	acm	embedded
+[ACM Conference on Computer and Communications Security 2016] PIPSEA - A Practical IPsec Gateway on Embedded APUs.	https://doi.org/10.1145/2976749.2978329	acm	embedded
+[ACM Conference on Computer and Communications Security 2016] Scalable Graph-based Bug Search for Firmware Images.	https://doi.org/10.1145/2976749.2978370	acm	firmware
+[ACM Conference on Computer and Communications Security 2016] Sixth International Workshop on Trustworthy Embedded Devices (TrustED 2016).	https://doi.org/10.1145/2976749.2990489	acm	embedded	trusted
+[ACM Conference on Computer and Communications Security 2017] FirmUSB - Vetting USB Device Firmware using Domain Informed Symbolic Execution.	https://doi.org/10.1145/3133956.3134050	acm	firmware	symbolic
+[CSET @ USENIX Security Symposium 2017] Measuring the Effectiveness of Embedded Phishing Exercises.	https://www.usenix.org/conference/cset17/workshop-program/presentation/siadatii	embedded	usenix
+[CSET @ USENIX Security Symposium 2017] Metrics for runtime detection of allocators in binaries.	https://www.usenix.org/conference/cset17/workshop-program/presentation/degoer	detect	embedded	usenix
+[IEEE Symposium on Security and Privacy 2010] Inspector Gadget - Automated Extraction of Proprietary Gadgets from Malware Binaries.	https://doi.org/10.1109/SP.2010.10	embedded	ieee	malware	trac
+[IEEE Symposium on Security and Privacy 2010] Tamper Evident Microprocessors.	https://doi.org/10.1109/SP.2010.19	embedded	ieee
+[IEEE Symposium on Security and Privacy 2010] Towards Static Flow-Based Declassification for Legacy and Untrusted Programs.	https://doi.org/10.1109/SP.2010.14	embedded	ieee	static	trusted
+[IEEE Symposium on Security and Privacy 2012] Don't Trust Satellite Phones - A Security Analysis of Two Satphone Standards.	https://doi.org/10.1109/SP.2012.18	firmware	ieee
+[IEEE Symposium on Security and Privacy 2013] Ghost Talk - Mitigating EMI Signal Injection Attacks against Analog Sensors.	https://doi.org/10.1109/SP.2013.20	attack	embedded	ieee
+[IEEE Symposium on Security and Privacy 2013] Welcome to the Entropics - Boot-Time Entropy in Embedded Devices.	https://doi.org/10.1109/SP.2013.46	embedded	ieee
+[IEEE Symposium on Security and Privacy 2014] Using Frankencerts for Automated Adversarial Testing of Certificate Validation in SSL/TLS Implementations.	https://doi.org/10.1109/SP.2014.15	embedded	ieee
+[IEEE Symposium on Security and Privacy 2015] A Messy State of the Union - Taming the Composite State Machines of TLS.	https://doi.org/10.1109/SP.2015.39	embedded	ieee
+[IEEE Symposium on Security and Privacy 2015] Cross-Architecture Bug Search in Binary Executables.	https://doi.org/10.1109/SP.2015.49	embedded	firmware	ieee
+[IEEE Symposium on Security and Privacy 2015] Understanding and Monitoring Embedded Web Scripts.	https://doi.org/10.1109/SP.2015.57	embedded	ieee	web
+[IEEE Symposium on Security and Privacy 2016] CaSE - Cache-Assisted Secure Execution on ARM Processors.	https://doi.org/10.1109/SP.2016.13	embedded	ieee
+[IEEE Symposium on Security and Privacy 2016] Following Devil's Footprints - Cross-Platform Analysis of Potentially Harmful Libraries on Android and iOS.	https://doi.org/10.1109/SP.2016.29	android	embedded	ieee
+[IEEE Symposium on Security and Privacy 2016] LAVA - Large-Scale Automated Vulnerability Addition.	https://doi.org/10.1109/SP.2016.15	embedded	ieee	vulnerabilit
+[IEEE Symposium on Security and Privacy 2017] How They Did It - An Analysis of Emission Defeat Devices in Modern Automobiles.	https://doi.org/10.1109/SP.2017.66	embedded	firmware	ieee	mobile
+[IEEE Symposium on Security and Privacy 2017] IoT Goes Nuclear - Creating a ZigBee Chain Reaction.	https://doi.org/10.1109/SP.2017.14	firmware	ieee	iot
+[IEEE Symposium on Security and Privacy 2017] NORAX - Enabling Execute-Only Memory for COTS Binaries on AArch64.	https://doi.org/10.1109/SP.2017.30	embedded	ieee
+[IEEE Symposium on Security and Privacy 2017] Protecting Bare-Metal Embedded Systems with Privilege Overlays.	https://doi.org/10.1109/SP.2017.37	embedded	ieee
+[IEEE Symposium on Security and Privacy 2018] Blue Note - How Intentional Acoustic Interference Damages Availability and Integrity in Hard Disk Drives and Operating Systems.	https://doi.org/10.1109/SP.2018.00050	embedded	firmware	ieee	operating-system
+[IEEE Symposium on Security and Privacy 2018] Compiler-Assisted Code Randomization.	https://doi.org/10.1109/SP.2018.00029	embedded	ieee
+[IEEE Symposium on Security and Privacy 2018] Study and Mitigation of Origin Stripping Vulnerabilities in Hybrid-postMessage Enabled Mobile Applications.	https://doi.org/10.1109/SP.2018.00043	embedded	ieee	mobile	vulnerabilit
+[IEEE Symposium on Security and Privacy 2018] Towards Security and Privacy for Multi-user Augmented Reality - Foundations with End Users.	https://doi.org/10.1109/SP.2018.00051	embedded	ieee
+[IEEE Symposium on Security and Privacy 2018] Understanding Linux Malware.	https://doi.org/10.1109/SP.2018.00054	embedded	ieee	malware
+[IEEE Symposium on Security and Privacy 2019] Dominance as a New Trusted Computing Primitive for the Internet of Things.	https://doi.org/10.1109/SP.2019.00084	firmware	ieee	trusted
+[IEEE Symposium on Security and Privacy 2019] Hard Drive of Hearing - Disks that Eavesdrop with a Synthesized Microphone.	https://doi.org/10.1109/SP.2019.00008	embedded	ieee
+[IEEE Symposium on Security and Privacy 2019] Resident Evil - Understanding Residential IP Proxy as a Dark Service.	https://doi.org/10.1109/SP.2019.00011	embedded	ieee
+[IEEE Symposium on Security and Privacy 2019] Self-Encrypting Deception - Weaknesses in the Encryption of Solid State Drives.	https://doi.org/10.1109/SP.2019.00088	firmware	ieee
+[IEEE Symposium on Security and Privacy 2019] SensorID - Sensor Calibration Fingerprinting for Smartphones.	https://doi.org/10.1109/SP.2019.00072	embedded	firmware	ieee	smartphone
+[IEEE Symposium on Security and Privacy 2019] SoK - Security Evaluation of Home-Based IoT Deployments.	https://doi.org/10.1109/SP.2019.00013	embedded	ieee	iot
+[IEEE Symposium on Security and Privacy 2019] Tap 'n Ghost - A Compilation of Novel Attack Techniques against Smartphone Touchscreens.	https://doi.org/10.1109/SP.2019.00037	attack	embedded	ieee	smartphone
+[IEEE Symposium on Security and Privacy 2019] Threshold ECDSA from ECDSA Assumptions - The Multiparty Case.	https://doi.org/10.1109/SP.2019.00024	embedded	ieee
+[IEEE Symposium on Security and Privacy 2019] True2F - Backdoor-Resistant Authentication Tokens.	https://doi.org/10.1109/SP.2019.00048	embedded	firmware	ieee
+[IEEE Symposium on Security and Privacy Workshops 2012] Privacy Control in Smart Phones Using Semantically Rich Reasoning and Context Modeling.	https://doi.org/10.1109/SPW.2012.27	embedded	ieee
+[IEEE Symposium on Security and Privacy Workshops 2012] Semantic Comparison of Security Policies - From Access Control Policies to Flow Properties.	https://doi.org/10.1109/SPW.2012.33	embedded	ieee
+[IEEE Symposium on Security and Privacy Workshops 2012] Slender PUF Protocol - A Lightweight, Robust, and Secure Authentication by Substring Matching.	https://doi.org/10.1109/SPW.2012.30	embedded	ieee
+[IEEE Symposium on Security and Privacy Workshops 2013] On Evaluating IP Traceback Schemes - A Practical Perspective.	https://doi.org/10.1109/SPW.2013.13	embedded	ieee	trac
+[IEEE Symposium on Security and Privacy Workshops 2017] Lua Code - Security Overview and Practical Approaches to Static Analysis.	https://doi.org/10.1109/SPW.2017.38	embedded	ieee	static
+[IEEE Symposium on Security and Privacy Workshops 2018] A Binary Analysis Approach to Retrofit Security in Input Parsing Routines.	https://doi.org/10.1109/SPW.2018.00049	embedded	firmware	ieee
+[NDSS 2012] SMART - Secure and Minimal Architecture for (Establishing Dynamic) Root of Trust.	https://www.ndss-symposium.org/ndss2012/smart-secure-and-minimal-architecture-establishing-dynamic-root-trust	dynamic	embedded	ndss
+[NDSS 2013] When Firmware Modifications Attack - A Case Study of Embedded Exploitation.	https://www.ndss-symposium.org/ndss2013/when-firmware-modifications-attack-case-study-embedded-exploitation	attack	embedded	firmware	ndss
+[NDSS 2014] AVATAR - A Framework to Support Dynamic Security Analysis of Embedded Systems' Firmwares.	https://www.ndss-symposium.org/ndss2014/avatar-framework-support-dynamic-security-analysis-embedded-systems-firmwares	dynamic	embedded	firmware	framework	ndss
+[NDSS 2015] DeepDroid - Dynamically Enforcing Enterprise Policy on Android Devices.	https://www.ndss-symposium.org/ndss2015/deepdroid-dynamically-enforcing-enterprise-policy-android-devices	android	dynamic	firmware	ndss
+[NDSS 2015] Firmalice - Automatic Detection of Authentication Bypass Vulnerabilities in Binary Firmware.	https://www.ndss-symposium.org/ndss2015/firmalice-automatic-detection-authentication-bypass-vulnerabilities-binary-firmware	detect	embedded	firmware	ndss	vulnerabilit
+[NDSS 2016] Are these Ads Safe - Detecting Hidden Attacks through the Mobile App-Web Interfaces.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/ads-safe-detecting-hidden-attacks-through-mobile-app-web-interfaces.pdf	attack	detect	embedded	mobile	web
+[NDSS 2016] Driller - Augmenting Fuzzing Through Selective Symbolic Execution.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/driller-augmenting-fuzzing-through-selective-symbolic-execution.pdf	firmware	fuzz	ndss	symbolic
+[NDSS 2016] Enabling Practical Software-defined Networking Security Applications with OFX.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/enabling-practical-software-defined-networking-security-applications-ofx.pdf	embedded	ndss
+[NDSS 2016] Extract Me If You Can - Abusing PDF Parsers in Malware Detectors.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/extract-me-if-you-can-abusing-pdf-parsers-malware-detectors.pdf	detect	embedded	malware	ndss	trac
+[NDSS 2016] Free for All! Assessing User Data Exposure to Advertising Libraries on Android.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/free-for-all-assessing-user-data-exposure-advertising-libraries-android.pdf	android	embedded	ndss
+[NDSS 2016] Leakage-Resilient Layout Randomization for Mobile Devices.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/leakage-resilient-layout-randomization-mobile-devices.pdf	embedded	mobile	ndss
+[NDSS 2016] OpenSGX - An Open Platform for SGX Research.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/opensgx-open-platform-sgx-research.pdf	firmware	ndss	sgx
+[NDSS 2016] Towards Automated Dynamic Analysis for Linux-based Embedded Firmware.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/towards-automated-dynamic-analysis-linux-based-embedded-firmware.pdf	dynamic	embedded	firmware	ndss
+[NDSS 2016] What Mobile Ads Know About Mobile Users.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/what-mobile-ads-know-about-mobile-users.pdf	embedded	mobile	ndss
+[NDSS 2016] discovRE - Efficient Cross-Architecture Identification of Bugs in Binary Code.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/discovre-efficient-cross-architecture-identification-bugs-binary-code.pdf	firmware	ndss
+[NDSS 2017] Hey, My Malware Knows Physics! Attacking PLCs with Physical Model Aware Rootkit.	https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/hey-my-malware-knows-physics-attacking-plcs-physical-model-aware-rootkit/	attack	embedded	firmware	malware	rootkit
+[NDSS 2017] Internet-scale Probing of CPS - Inference, Characterization and Orchestration Analysis.	https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/internet-scale-probing-cps-inference-characterization-and-orchestration-analysis/	embedded	ndss
+[NDSS 2017] T-SGX - Eradicating Controlled-Channel Attacks Against Enclave Programs.	https://www.ndss-symposium.org/ndss2017/ndss-2017-programme/t-sgx-eradicating-controlled-channel-attacks-against-enclave-programs/	attack	firmware	ndss	sgx
+[NDSS 2018] Automated Generation of Event-Oriented Exploits in Android Hybrid Apps.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_04B-3_Yang_paper.pdf	android	embedded	ndss
+[NDSS 2018] Decentralized Action Integrity for Trigger-Action IoT Platforms.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_01A-3_Fernandes_paper.pdf	firmware	iot	ndss
+[NDSS 2018] IoTFuzzer - Discovering Memory Corruptions in IoT Through App-based Fuzzing.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_01A-1_Chen_paper.pdf	embedded	firmware	fuzz	iot	ndss
+[NDSS 2018] KeyDrown - Eliminating Software-Based Keystroke Timing Side-Channel Attacks.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_04B-1_Schwarz_paper.pdf	attack	embedded	ndss	side-channel
+[NDSS 2018] Riding out DOMsday - Towards Detecting and Preventing DOM Cross-Site Scripting.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_07A-4_Melicher_paper.pdf	detect	embedded	ndss
+[NDSS 2018] Securing Real-Time Microcontroller Systems through Customized Memory View Switching.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_04B-2_Kim_paper.pdf	embedded	firmware	ndss
+[NDSS 2018] What You Corrupt Is Not What You Crash - Challenges in Fuzzing Embedded Devices.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_01A-4_Muench_paper.pdf	embedded	firmware	fuzz	ndss
+[NDSS 2018] When Coding Style Survives Compilation - De-anonymizing Programmers from Executable Binaries.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_06B-2_Caliskan_paper.pdf	embedded	ndss
+[NDSS 2019] DIAT - Data Integrity Attestation for Resilient Collaboration of Autonomous Systems.	https://www.ndss-symposium.org/ndss-paper/diat-data-integrity-attestation-for-resilient-collaboration-of-autonomous-systems/	embedded	ndss
+[NDSS 2019] Ginseng - Keeping Secrets in Registers When You Distrust the Operating System.	https://www.ndss-symposium.org/ndss-paper/ginseng-keeping-secrets-in-registers-when-you-distrust-the-operating-system/	embedded	firmware	ndss	operating-system
+[NDSS 2019] PeriScope - An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary.	https://www.ndss-symposium.org/ndss-paper/periscope-an-effective-probing-and-fuzzing-framework-for-the-hardware-os-boundary/	firmware	framework	fuzz	ndss
+[NDSS 2019] TIMBER-V - Tag-Isolated Memory Bringing Fine-grained Enclaves to RISC-V.	https://www.ndss-symposium.org/ndss-paper/timber-v-tag-isolated-memory-bringing-fine-grained-enclaves-to-risc-v/	embedded	ndss
+[NDSS 2019] Understanding Open Ports in Android Applications - Discovery, Diagnosis, and Security Assessment.	https://www.ndss-symposium.org/ndss-paper/understanding-open-ports-in-android-applications-discovery-diagnosis-and-security-assessment/	android	embedded	ndss
+[USENIX Annual Technical Conference 2019] Supporting Security Sensitive Tenants in a Bare-Metal Cloud.	https://www.usenix.org/conference/atc19/presentation/mosayyebzadeh	cloud	firmware	usenix
+[USENIX Security Symposium 2009] CCCP - Secure Remote Storage for Computational RFIDs.	http://www.usenix.org/events/sec09/tech/full_papers/salajegheh.pdf	embedded	usenix
+[USENIX Security Symposium 2009] NOZZLE - A Defense Against Heap-spraying Code Injection Attacks.	http://www.usenix.org/events/sec09/tech/full_papers/ratanaworabhan.pdf	attack	defense	embedded	usenix
+[USENIX Security Symposium 2009] Return-Oriented Rootkits - Bypassing Kernel Code Integrity Protection Mechanisms.	http://www.usenix.org/events/sec09/tech/full_papers/hund.pdf	embedded	kernel	rootkit	usenix
+[USENIX Security Symposium 2010] BotGrep - Finding P2P Bots with Structured Graph Analysis.	http://www.usenix.org/events/sec10/tech/full_papers/Nagaraja.pdf	embedded	usenix
+[USENIX Security Symposium 2010] PrETP - Privacy-Preserving Electronic Toll Pricing.	http://www.usenix.org/events/sec10/tech/full_papers/Balasch.pdf	embedded	usenix
+[USENIX Security Symposium 2011] ADsafety - Type-Based Verification of JavaScript Sandboxing.	http://static.usenix.org/events/sec11/tech/full_papers/Politz.pdf	embedded	sandbox	usenix
+[USENIX Security Symposium 2011] Forensic Triage for Mobile Phones with DEC0DE.	http://static.usenix.org/events/sec11/tech/full_papers/Walls.pdf	embedded	forensic	mobile	usenix
+[USENIX Security Symposium 2011] SHELLOS - Enabling Fast Detection and Forensic Analysis of Code Injection Attacks.	http://static.usenix.org/events/sec11/tech/full_papers/Snow.pdf	attack	detect	embedded	forensic	usenix
+[USENIX Security Symposium 2011] SMS of Death - From Analyzing to Attacking Mobile Phones on a Large Scale.	http://static.usenix.org/events/sec11/tech/full_papers/Mulliner.pdf	attack	embedded	mobile	usenix
+[USENIX Security Symposium 2011] Toward Secure Embedded Web Interfaces.	http://static.usenix.org/events/sec11/tech/full_papers/Gourdin.pdf	embedded	usenix	web
+[USENIX Security Symposium 2012] AdSplit - Separating Smartphone Advertising from Applications.	https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/shekhar	embedded	smartphone	usenix
+[USENIX Security Symposium 2012] TARDIS - Time and Remanence Decay in SRAM to Implement Secure Protocols on Embedded Devices without Clocks.	https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/rahmati	embedded	usenix
+[USENIX Security Symposium 2013] Dismantling Megamos Crypto - Wirelessly Lockpicking a Vehicle Immobilizer.	https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/verdult	embedded	usenix
+[USENIX Security Symposium 2013] FIE on Firmware - Finding Vulnerabilities in Embedded Systems Using Symbolic Execution.	https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/davidson	embedded	firmware	symbolic	usenix	vulnerabilit
+[USENIX Security Symposium 2013] Let Me Answer That for You - Exploiting Broadcast Information in Cellular Networks.	https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/golde	firmware	usenix
+[USENIX Security Symposium 2013] Sancus - Low-cost Trustworthy Extensible Networked Devices with a Zero-software Trusted Computing Base.	https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/noorman	embedded	trusted	usenix
+[USENIX Security Symposium 2013] Securing Embedded User Interfaces - Android and Beyond.	https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/roesner	android	embedded	usenix
+[USENIX Security Symposium 2014] A Large-Scale Analysis of the Security of Embedded Firmwares.	https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/costin	embedded	firmware	usenix
+[USENIX Security Symposium 2014] Brahmastra - Driving Apps to Test the Security of Third-Party Components.	https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/bhoraskar	embedded	usenix
+[USENIX Security Symposium 2014] From the Aether to the Ethernet - Attacking the Internet using Broadcast Digital Television.	https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/oren	attack	embedded	usenix
+[USENIX Security Symposium 2014] iSeeYou - Disabling the MacBook Webcam Indicator LED.	https://www.usenix.org/conference/usenixsecurity14/technical-sessions/presentation/brocker	firmware	usenix	web
+[USENIX Security Symposium 2015] Boxify - Full-fledged App Sandboxing for Stock Android.	https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/backes	android	firmware	sandbox	usenix
+[USENIX Security Symposium 2015] GSMem - Data Exfiltration from Air-Gapped Computers over GSM Frequencies.	https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/guri	firmware	usenix
+[USENIX Security Symposium 2016] fTPM - A Software-Only Implementation of a TPM Chip.	https://www.usenix.org/conference/usenixsecurity16/technical-sessions/presentation/raj	firmware	usenix
+[USENIX Security Symposium 2017] Detecting Android Root Exploits by Learning from Root Providers.	https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/gasparis	android	detect	embedded	usenix
+[USENIX Security Symposium 2017] Inferring Fine-grained Control Flow Inside SGX Enclaves with Branch Shadowing.	https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/lee-sangho	firmware	sgx	usenix
+[USENIX Security Symposium 2017] Ninja - Towards Transparent Tracing and Debugging on ARM.	https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/ning	embedded	trac	usenix
+[USENIX Security Symposium 2017] Same-Origin Policy - Evaluation in Modern Browsers.	https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/schwenk	embedded	usenix
+[USENIX Security Symposium 2017] See No Evil, Hear No Evil, Feel No Evil, Print No Evil? Malicious Fill Patterns Detection in Additive Manufacturing.	https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/bayens	detect	firmware	usenix
+[USENIX Security Symposium 2017] Towards Practical Tools for Side Channel Aware Software Engineering - 'Grey Box' Modelling for Instruction Leakages.	https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/mccann	embedded	side-channel	software-engineering	tool	usenix
+[USENIX Security Symposium 2017] Understanding the Mirai Botnet.	https://www.usenix.org/conference/usenixsecurity17/technical-sessions/presentation/antonakakis	embedded	usenix
+[USENIX Security Symposium 2018] A Bad Dream - Subverting Trusted Platform Module While You Are Sleeping.	https://www.usenix.org/conference/usenixsecurity18/presentation/han	firmware	trusted	usenix
+[USENIX Security Symposium 2018] ACES - Automatic Compartments for Embedded Systems.	https://www.usenix.org/conference/usenixsecurity18/presentation/clements	embedded	usenix
+[USENIX Security Symposium 2018] Inception - System-Wide Security Testing of Real-World Embedded Systems Software.	https://www.usenix.org/conference/usenixsecurity18/presentation/corteggiani	embedded	firmware	usenix
+[USENIX Security Symposium 2018] One&Done - A Single-Decryption EM-Based Attack on OpenSSL's Constant-Time Blinded RSA.	https://www.usenix.org/conference/usenixsecurity18/presentation/alam	attack	embedded	usenix
+[USENIX Security Symposium 2018] The Dangers of Key Reuse - Practical Attacks on IPsec IKE.	https://www.usenix.org/conference/usenixsecurity18/presentation/felsch	attack	firmware	usenix
+[USENIX Security Symposium 2019] Discovering and Understanding the Security Hazards in the Interactions between IoT Devices, Mobile Apps, and Clouds on Smart Home Platforms.	https://www.usenix.org/conference/usenixsecurity19/presentation/zhou	cloud	firmware	iot	mobile	usenix
+[USENIX Security Symposium 2019] Looking from the Mirror - Evaluating IoT Device Security through Mobile Companion Apps.	https://www.usenix.org/conference/usenixsecurity19/presentation/wang-xueqiang	firmware	iot	mobile	usenix
+[USENIX Security Symposium 2019] The KNOB is Broken - Exploiting Low Entropy in the Encryption Key Negotiation Of Bluetooth BR/EDR.	https://www.usenix.org/conference/usenixsecurity19/presentation/antonioli	firmware	usenix
+[USENIX Security Symposium 2019] simTPM - User-centric TPM for Mobile Devices.	https://www.usenix.org/conference/usenixsecurity19/presentation/chakraborty	firmware	mobile	usenix
+[WOOT @ USENIX Security Symposium 2019] Vacuums in the Cloud - Analyzing Security in a Hardened IoT Ecosystem.	https://www.usenix.org/conference/woot19/presentation/ullrich	cloud	firmware	iot	usenix
