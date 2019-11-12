@@ -71,8 +71,6 @@ def filter_per_keyword(hits, keyword):
         venue = hit['venue']
         year  = hit['year']
         url   = hit['ee']
-        
-        is_abstract_good = False
         soup = None
 
         try:
@@ -82,23 +80,22 @@ def filter_per_keyword(hits, keyword):
             print("connection error on %s. URL: %s" % (title, url))
             abstract = None
         
-        if abstract is not None and b"%PDF" == abstract[:4]:
-            with open("/tmp/tmp.pdf", "wb") as fout:
-                fout.write(abstract)
-            is_abstract_good = os.system("pdfgrep --page-range=1 '{pattern}' /tmp/tmp.pdf > /dev/null".format(
-                pattern='|'.join(keywords)
-            )) == 0
+        keywords_ok = []
+        for keyword in keywords:
+            is_abstract_good = False
+            if abstract is not None and b"%PDF" == abstract[:4]:
+                with open("/tmp/tmp.pdf", "wb") as fout:
+                    fout.write(abstract)
+                is_abstract_good = os.system("pdfgrep --page-range=1 '{pattern}' /tmp/tmp.pdf > /dev/null".format(
+                    pattern=keyword
+                )) == 0
 
-        elif abstract is not None:
-            soup = BeautifulSoup(abstract, features="html.parser")
-            abstract_ascii = str(soup.body).lower()
-            for keyword in keywords:
+            elif abstract is not None:
+                soup = BeautifulSoup(abstract, features="html.parser")
+                abstract_ascii = str(soup.body).lower()
                 if keyword.lower() in abstract_ascii:
                     is_abstract_good = True
                     break
-        
-        keywords_ok = []
-        for keyword in keywords:
             if keyword.lower() in title.lower() or (not ONLY_TITLE and is_abstract_good):
                 keywords_ok.append(keyword)
         
