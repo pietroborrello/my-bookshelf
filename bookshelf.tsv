@@ -1,6 +1,43 @@
 Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag11	tag12	tag13	tag14
 [CSET @ USENIX Security Symposium 2017] Measuring the Effectiveness of Embedded Phishing Exercises.	https://www.usenix.org/conference/cset17/workshop-program/presentation/siadatii	embedded
 [CSET @ USENIX Security Symposium 2017] Metrics for runtime detection of allocators in binaries.	https://www.usenix.org/conference/cset17/workshop-program/presentation/degoer	embedded
+[IEEE Symposium on Security and Privacy 2010] Inspector Gadget - Automated Extraction of Proprietary Gadgets from Malware Binaries.	https://doi.org/10.1109/SP.2010.10	embedded
+[IEEE Symposium on Security and Privacy 2010] Tamper Evident Microprocessors.	https://doi.org/10.1109/SP.2010.19	embedded
+[IEEE Symposium on Security and Privacy 2010] Towards Static Flow-Based Declassification for Legacy and Untrusted Programs.	https://doi.org/10.1109/SP.2010.14	embedded
+[IEEE Symposium on Security and Privacy 2012] Don't Trust Satellite Phones - A Security Analysis of Two Satphone Standards.	https://doi.org/10.1109/SP.2012.18	firmware
+[IEEE Symposium on Security and Privacy 2013] Ghost Talk - Mitigating EMI Signal Injection Attacks against Analog Sensors.	https://doi.org/10.1109/SP.2013.20	embedded
+[IEEE Symposium on Security and Privacy 2013] Welcome to the Entropics - Boot-Time Entropy in Embedded Devices.	https://doi.org/10.1109/SP.2013.46	embedded
+[IEEE Symposium on Security and Privacy 2014] Using Frankencerts for Automated Adversarial Testing of Certificate Validation in SSL/TLS Implementations.	https://doi.org/10.1109/SP.2014.15	embedded
+[IEEE Symposium on Security and Privacy 2015] A Messy State of the Union - Taming the Composite State Machines of TLS.	https://doi.org/10.1109/SP.2015.39	embedded
+[IEEE Symposium on Security and Privacy 2015] Cross-Architecture Bug Search in Binary Executables.	https://doi.org/10.1109/SP.2015.49	embedded	firmware
+[IEEE Symposium on Security and Privacy 2015] Understanding and Monitoring Embedded Web Scripts.	https://doi.org/10.1109/SP.2015.57	embedded
+[IEEE Symposium on Security and Privacy 2016] CaSE - Cache-Assisted Secure Execution on ARM Processors.	https://doi.org/10.1109/SP.2016.13	embedded
+[IEEE Symposium on Security and Privacy 2016] Following Devil's Footprints - Cross-Platform Analysis of Potentially Harmful Libraries on Android and iOS.	https://doi.org/10.1109/SP.2016.29	embedded
+[IEEE Symposium on Security and Privacy 2016] LAVA - Large-Scale Automated Vulnerability Addition.	https://doi.org/10.1109/SP.2016.15	embedded
+[IEEE Symposium on Security and Privacy 2017] How They Did It - An Analysis of Emission Defeat Devices in Modern Automobiles.	https://doi.org/10.1109/SP.2017.66	embedded	firmware
+[IEEE Symposium on Security and Privacy 2017] IoT Goes Nuclear - Creating a ZigBee Chain Reaction.	https://doi.org/10.1109/SP.2017.14	firmware
+[IEEE Symposium on Security and Privacy 2017] NORAX - Enabling Execute-Only Memory for COTS Binaries on AArch64.	https://doi.org/10.1109/SP.2017.30	embedded
+[IEEE Symposium on Security and Privacy 2017] Protecting Bare-Metal Embedded Systems with Privilege Overlays.	https://doi.org/10.1109/SP.2017.37	embedded
+[IEEE Symposium on Security and Privacy 2018] Blue Note - How Intentional Acoustic Interference Damages Availability and Integrity in Hard Disk Drives and Operating Systems.	https://doi.org/10.1109/SP.2018.00050	embedded	firmware
+[IEEE Symposium on Security and Privacy 2018] Compiler-Assisted Code Randomization.	https://doi.org/10.1109/SP.2018.00029	embedded
+[IEEE Symposium on Security and Privacy 2018] Study and Mitigation of Origin Stripping Vulnerabilities in Hybrid-postMessage Enabled Mobile Applications.	https://doi.org/10.1109/SP.2018.00043	embedded
+[IEEE Symposium on Security and Privacy 2018] Towards Security and Privacy for Multi-user Augmented Reality - Foundations with End Users.	https://doi.org/10.1109/SP.2018.00051	embedded
+[IEEE Symposium on Security and Privacy 2018] Understanding Linux Malware.	https://doi.org/10.1109/SP.2018.00054	embedded
+[IEEE Symposium on Security and Privacy 2019] Dominance as a New Trusted Computing Primitive for the Internet of Things.	https://doi.org/10.1109/SP.2019.00084	firmware
+[IEEE Symposium on Security and Privacy 2019] Hard Drive of Hearing - Disks that Eavesdrop with a Synthesized Microphone.	https://doi.org/10.1109/SP.2019.00008	embedded
+[IEEE Symposium on Security and Privacy 2019] Resident Evil - Understanding Residential IP Proxy as a Dark Service.	https://doi.org/10.1109/SP.2019.00011	embedded
+[IEEE Symposium on Security and Privacy 2019] Self-Encrypting Deception - Weaknesses in the Encryption of Solid State Drives.	https://doi.org/10.1109/SP.2019.00088	firmware
+[IEEE Symposium on Security and Privacy 2019] SensorID - Sensor Calibration Fingerprinting for Smartphones.	https://doi.org/10.1109/SP.2019.00072	embedded	firmware
+[IEEE Symposium on Security and Privacy 2019] SoK - Security Evaluation of Home-Based IoT Deployments.	https://doi.org/10.1109/SP.2019.00013	embedded
+[IEEE Symposium on Security and Privacy 2019] Tap 'n Ghost - A Compilation of Novel Attack Techniques against Smartphone Touchscreens.	https://doi.org/10.1109/SP.2019.00037	embedded
+[IEEE Symposium on Security and Privacy 2019] Threshold ECDSA from ECDSA Assumptions - The Multiparty Case.	https://doi.org/10.1109/SP.2019.00024	embedded
+[IEEE Symposium on Security and Privacy 2019] True2F - Backdoor-Resistant Authentication Tokens.	https://doi.org/10.1109/SP.2019.00048	embedded	firmware
+[IEEE Symposium on Security and Privacy Workshops 2012] Privacy Control in Smart Phones Using Semantically Rich Reasoning and Context Modeling.	https://doi.org/10.1109/SPW.2012.27	embedded
+[IEEE Symposium on Security and Privacy Workshops 2012] Semantic Comparison of Security Policies - From Access Control Policies to Flow Properties.	https://doi.org/10.1109/SPW.2012.33	embedded
+[IEEE Symposium on Security and Privacy Workshops 2012] Slender PUF Protocol - A Lightweight, Robust, and Secure Authentication by Substring Matching.	https://doi.org/10.1109/SPW.2012.30	embedded
+[IEEE Symposium on Security and Privacy Workshops 2013] On Evaluating IP Traceback Schemes - A Practical Perspective.	https://doi.org/10.1109/SPW.2013.13	embedded
+[IEEE Symposium on Security and Privacy Workshops 2017] Lua Code - Security Overview and Practical Approaches to Static Analysis.	https://doi.org/10.1109/SPW.2017.38	embedded
+[IEEE Symposium on Security and Privacy Workshops 2018] A Binary Analysis Approach to Retrofit Security in Input Parsing Routines.	https://doi.org/10.1109/SPW.2018.00049	embedded	firmware
 [NDSS 2012] SMART - Secure and Minimal Architecture for (Establishing Dynamic) Root of Trust.	https://www.ndss-symposium.org/ndss2012/smart-secure-and-minimal-architecture-establishing-dynamic-root-trust	embedded
 [NDSS 2013] When Firmware Modifications Attack - A Case Study of Embedded Exploitation.	https://www.ndss-symposium.org/ndss2013/when-firmware-modifications-attack-case-study-embedded-exploitation	embedded	firmware
 [NDSS 2014] AVATAR - A Framework to Support Dynamic Security Analysis of Embedded Systems' Firmwares.	https://www.ndss-symposium.org/ndss2014/avatar-framework-support-dynamic-security-analysis-embedded-systems-firmwares	embedded	firmware
