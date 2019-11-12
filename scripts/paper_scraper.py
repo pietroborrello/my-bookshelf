@@ -163,10 +163,18 @@ if __name__=="__main__":
                 year))
             log_title = "[{} {}] ".format(
                 result['venue'], result['year']) + html.unescape(result["title"])
+            
+            if log_title in papers:
+                old_tags = papers[log_title].split('\t')[2:]
+                new_tags = result['tags'].split('\t')
+                tags = '\t'.join(sorted(set(old_tags + new_tags)))
+            else:
+                tags = result['tags']
+
             papers[log_title] = "{title}\t{link}\t{keywords}".format(
                 title=log_title,
                 link=result['url'],
-                keywords=result['tags']
+                keywords=tags
             )
 
             # if result["paper"] is not None:
