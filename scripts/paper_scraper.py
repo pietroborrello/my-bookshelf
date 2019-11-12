@@ -24,7 +24,7 @@ logfile_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../boo
 
 def search_per_venue(venue: str, year: str):
     r = requests.get(
-        query_template.format(year=year, venue=venue, limit=100) 
+        query_template.format(year=year, venue=venue, limit=1000) 
     )
     res  = r.json()
     hits = res['result']['hits']['hit']
@@ -92,7 +92,7 @@ def filter_per_keyword(hits, keyword):
 
             elif abstract is not None:
                 soup = BeautifulSoup(abstract, features="html.parser")
-                abstract_ascii = str(soup.body).lower()
+                abstract_ascii = str(soup.body.text).lower()
                 if keyword.lower() in abstract_ascii:
                     is_abstract_good = True
             if keyword.lower() in title.lower() or (not ONLY_TITLE and is_abstract_good):
