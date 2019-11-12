@@ -1,4 +1,19 @@
 Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag11	tag12	tag13	tag14
+[ACM Conference on Computer and Communications Security 2009] On the difficulty of software-based attestation of embedded devices.	https://doi.org/10.1145/1653662.1653711	embedded
+[ACM Conference on Computer and Communications Security 2011] Poster - practical embedded remote attestation using physically unclonable functions.	https://dl.acm.org/citation.cfm?id=2093496	embedded
+[ACM Conference on Computer and Communications Security 2011] VIPER - verifying the integrity of PERipherals' firmware.	https://doi.org/10.1145/2046707.2046711	firmware
+[ACM Conference on Computer and Communications Security 2013] Constructive and destructive aspects of embedded security in the internet of things.	https://doi.org/10.1145/2508859.2516757	embedded
+[ACM Conference on Computer and Communications Security 2013] Enhanced embedded device security by combining hardware-based trust mechanisms.	https://doi.org/10.1145/2508859.2512509	embedded
+[ACM Conference on Computer and Communications Security 2013] Third international workshop on trustworthy embedded devices (TrustED 2013).	https://doi.org/10.1145/2508859.2509029	embedded
+[ACM Conference on Computer and Communications Security 2014] Do You Hear What I Hear? - Fingerprinting Smart Devices Through Embedded Acoustic Components.	https://doi.org/10.1145/2660267.2660325	embedded
+[ACM Conference on Computer and Communications Security 2014] Fourth International Workshop on Trustworthy Embedded Devices (TrustED 2014).	https://doi.org/10.1145/2660267.2660384	embedded
+[ACM Conference on Computer and Communications Security 2015] Fifth International Workshop on Trustworthy Embedded Devices (TrustED 2015).	https://doi.org/10.1145/2810103.2812626	embedded
+[ACM Conference on Computer and Communications Security 2015] SEDA - Scalable Embedded Device Attestation.	https://doi.org/10.1145/2810103.2813670	embedded
+[ACM Conference on Computer and Communications Security 2016] C-FLAT - Control-Flow Attestation for Embedded Systems Software.	https://doi.org/10.1145/2976749.2978358	embedded
+[ACM Conference on Computer and Communications Security 2016] PIPSEA - A Practical IPsec Gateway on Embedded APUs.	https://doi.org/10.1145/2976749.2978329	embedded
+[ACM Conference on Computer and Communications Security 2016] Scalable Graph-based Bug Search for Firmware Images.	https://doi.org/10.1145/2976749.2978370	firmware
+[ACM Conference on Computer and Communications Security 2016] Sixth International Workshop on Trustworthy Embedded Devices (TrustED 2016).	https://doi.org/10.1145/2976749.2990489	embedded
+[ACM Conference on Computer and Communications Security 2017] FirmUSB - Vetting USB Device Firmware using Domain Informed Symbolic Execution.	https://doi.org/10.1145/3133956.3134050	firmware
 [CSET @ USENIX Security Symposium 2017] Measuring the Effectiveness of Embedded Phishing Exercises.	https://www.usenix.org/conference/cset17/workshop-program/presentation/siadatii	embedded
 [CSET @ USENIX Security Symposium 2017] Metrics for runtime detection of allocators in binaries.	https://www.usenix.org/conference/cset17/workshop-program/presentation/degoer	embedded
 [NDSS 2012] SMART - Secure and Minimal Architecture for (Establishing Dynamic) Root of Trust.	https://www.ndss-symposium.org/ndss2012/smart-secure-and-minimal-architecture-establishing-dynamic-root-trust	embedded

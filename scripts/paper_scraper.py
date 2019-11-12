@@ -122,7 +122,7 @@ def filter_per_keyword(hits, keyword):
 
 def parse_log(filename):
     with open(filename, 'r') as f:
-        log_content = f.readlines()[1:]
+        log_content = f.read().strip().split('\n')[1:]
     for line in log_content:
         title = line.split('\t')[0]
         papers[title] = line
