@@ -79,7 +79,7 @@ def filter_per_keyword(hits, keyword):
         except ConnectionError:
             print("connection error on %s. URL: %s" % (title, url))
             abstract = None
-        
+
         keywords_ok = []
         for keyword in keywords:
             is_abstract_good = False
@@ -95,7 +95,6 @@ def filter_per_keyword(hits, keyword):
                 abstract_ascii = str(soup.body).lower()
                 if keyword.lower() in abstract_ascii:
                     is_abstract_good = True
-                    break
             if keyword.lower() in title.lower() or (not ONLY_TITLE and is_abstract_good):
                 keywords_ok.append(keyword)
         
@@ -133,7 +132,7 @@ def write_log(filename):
         f.write(TITLE)
         f.write('\n')
         for title in sorted(papers):
-            f.write(papers[title])
+            f.write(papers[title].strip())
             f.write('\n')
     
 if __name__=="__main__":

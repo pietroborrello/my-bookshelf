@@ -1,11 +1,14 @@
 Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag11	tag12	tag13	tag14
-[NDSS 2016] Are these Ads Safe - Detecting Hidden Attacks through the Mobile App-Web Interfaces.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/ads-safe-detecting-hidden-attacks-through-mobile-app-web-interfaces.pdf	embedded
-[NDSS 2016] Driller - Augmenting Fuzzing Through Selective Symbolic Execution.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/driller-augmenting-fuzzing-through-selective-symbolic-execution.pdf	firmware
-[NDSS 2016] Enabling Practical Software-defined Networking Security Applications with OFX.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/enabling-practical-software-defined-networking-security-applications-ofx.pdf	embedded
-[NDSS 2016] Extract Me If You Can - Abusing PDF Parsers in Malware Detectors.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/extract-me-if-you-can-abusing-pdf-parsers-malware-detectors.pdf	embedded
-[NDSS 2016] Free for All! Assessing User Data Exposure to Advertising Libraries on Android.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/free-for-all-assessing-user-data-exposure-advertising-libraries-android.pdf	embedded
-[NDSS 2016] Leakage-Resilient Layout Randomization for Mobile Devices.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/leakage-resilient-layout-randomization-mobile-devices.pdf	embedded
-[NDSS 2016] OpenSGX - An Open Platform for SGX Research.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/opensgx-open-platform-sgx-research.pdf	firmware
-[NDSS 2016] Towards Automated Dynamic Analysis for Linux-based Embedded Firmware.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/towards-automated-dynamic-analysis-linux-based-embedded-firmware.pdf	embedded	firmware
-[NDSS 2016] What Mobile Ads Know About Mobile Users.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/what-mobile-ads-know-about-mobile-users.pdf	embedded
-[NDSS 2016] discovRE - Efficient Cross-Architecture Identification of Bugs in Binary Code.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/discovre-efficient-cross-architecture-identification-bugs-binary-code.pdf	firmware
+[NDSS 2018] Automated Generation of Event-Oriented Exploits in Android Hybrid Apps.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_04B-3_Yang_paper.pdf	embedded
+[NDSS 2018] Decentralized Action Integrity for Trigger-Action IoT Platforms.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_01A-3_Fernandes_paper.pdf	firmware
+[NDSS 2018] IoTFuzzer - Discovering Memory Corruptions in IoT Through App-based Fuzzing.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_01A-1_Chen_paper.pdf	embedded	firmware
+[NDSS 2018] KeyDrown - Eliminating Software-Based Keystroke Timing Side-Channel Attacks.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_04B-1_Schwarz_paper.pdf	embedded
+[NDSS 2018] Riding out DOMsday - Towards Detecting and Preventing DOM Cross-Site Scripting.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_07A-4_Melicher_paper.pdf	embedded
+[NDSS 2018] Securing Real-Time Microcontroller Systems through Customized Memory View Switching.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_04B-2_Kim_paper.pdf	embedded	firmware
+[NDSS 2018] What You Corrupt Is Not What You Crash - Challenges in Fuzzing Embedded Devices.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_01A-4_Muench_paper.pdf	embedded	firmware
+[NDSS 2018] When Coding Style Survives Compilation - De-anonymizing Programmers from Executable Binaries.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_06B-2_Caliskan_paper.pdf	embedded
+[NDSS 2019] DIAT - Data Integrity Attestation for Resilient Collaboration of Autonomous Systems.	https://www.ndss-symposium.org/ndss-paper/diat-data-integrity-attestation-for-resilient-collaboration-of-autonomous-systems/	embedded
+[NDSS 2019] Ginseng - Keeping Secrets in Registers When You Distrust the Operating System.	https://www.ndss-symposium.org/ndss-paper/ginseng-keeping-secrets-in-registers-when-you-distrust-the-operating-system/	embedded	firmware
+[NDSS 2019] PeriScope - An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary.	https://www.ndss-symposium.org/ndss-paper/periscope-an-effective-probing-and-fuzzing-framework-for-the-hardware-os-boundary/	firmware
+[NDSS 2019] TIMBER-V - Tag-Isolated Memory Bringing Fine-grained Enclaves to RISC-V.	https://www.ndss-symposium.org/ndss-paper/timber-v-tag-isolated-memory-bringing-fine-grained-enclaves-to-risc-v/	embedded
+[NDSS 2019] Understanding Open Ports in Android Applications - Discovery, Diagnosis, and Security Assessment.	https://www.ndss-symposium.org/ndss-paper/understanding-open-ports-in-android-applications-discovery-diagnosis-and-security-assessment/	embedded
