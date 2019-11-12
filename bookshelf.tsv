@@ -14,7 +14,7 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [ACM Conference on Computer and Communications Security 2016] Scalable Graph-based Bug Search for Firmware Images.	https://doi.org/10.1145/2976749.2978370	2016	acm	firmware
 [ACM Conference on Computer and Communications Security 2016] Sixth International Workshop on Trustworthy Embedded Devices (TrustED 2016).	https://doi.org/10.1145/2976749.2990489	2016	acm	embedded	trusted
 [ACM Conference on Computer and Communications Security 2017] FirmUSB - Vetting USB Device Firmware using Domain Informed Symbolic Execution.	https://doi.org/10.1145/3133956.3134050	2017	acm	firmware	symbolic
-[BAR @ NDSS] Avatar2: A Multi-target Orchestration Platform	http://s3.eurecom.fr/docs/bar18_muench.pdf	embedded	firmware	ndss	tool
+[BAR @ NDSS 2018] Avatar2: A Multi-target Orchestration Platform	http://s3.eurecom.fr/docs/bar18_muench.pdf	2018	embedded	firmware	ndss	tool
 [CSET @ USENIX Security Symposium 2017] Measuring the Effectiveness of Embedded Phishing Exercises.	https://www.usenix.org/conference/cset17/workshop-program/presentation/siadatii	2017	embedded	usenix
 [CSET @ USENIX Security Symposium 2017] Metrics for runtime detection of allocators in binaries.	https://www.usenix.org/conference/cset17/workshop-program/presentation/degoer	2017	detect	embedded	usenix
 [IEEE Symposium on Security and Privacy 2010] Inspector Gadget - Automated Extraction of Proprietary Gadgets from Malware Binaries.	https://doi.org/10.1109/SP.2010.10	2010	embedded	ieee	malware	trac
