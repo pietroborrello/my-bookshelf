@@ -164,8 +164,9 @@
 
         function onTagChange(field, editor, tags) {
             saved_tags = tags
+            // console.log(tags)
             $("#bookList").empty();
-            if (tags.length==0 || field==null){
+            if (tags.length==0){
                 $("#bookList").append("<h2>All tags</h2>");
                 var list = buildItemList(filtered_items, bookshelf);
                 $("#bookList").append(list);
