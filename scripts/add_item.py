@@ -12,7 +12,7 @@ parser.add_argument("tags", nargs="+", type=str)
 
 if __name__ == "__main__":
   args = parser.parse_args()
-  with open("bookshelf.tsv", "a") as f:
+  with open("../bookshelf.tsv", "a") as f:
     tags = "\t".join(args.tags)
     N = 17
     current_n = len(args.tags) + 2

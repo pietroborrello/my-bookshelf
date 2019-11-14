@@ -1,4 +1,5 @@
 Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag11	tag12	tag13	tag14
+[2007] Anti-Taint-Analysis: Practical Evasion Techniques Against Information Flow Based Malware Defense	2007	taint	analysis	evasion
 [ACM Conference on Computer and Communications Security 2009] On the difficulty of software-based attestation of embedded devices.	https://doi.org/10.1145/1653662.1653711	2009	acm	embedded
 [ACM Conference on Computer and Communications Security 2011] Poster - practical embedded remote attestation using physically unclonable functions.	https://dl.acm.org/citation.cfm?id=2093496	2011	acm	embedded
 [ACM Conference on Computer and Communications Security 2011] VIPER - verifying the integrity of PERipherals' firmware.	https://doi.org/10.1145/2046707.2046711	2011	acm	firmware
@@ -41,11 +42,14 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [IEEE Symposium on Security and Privacy 2018] Understanding Linux Malware.	https://doi.org/10.1109/SP.2018.00054	2018	embedded	ieee	malware
 [IEEE Symposium on Security and Privacy 2019] Dominance as a New Trusted Computing Primitive for the Internet of Things.	https://doi.org/10.1109/SP.2019.00084	2019	firmware	ieee	trusted
 [IEEE Symposium on Security and Privacy 2019] Hard Drive of Hearing - Disks that Eavesdrop with a Synthesized Microphone.	https://doi.org/10.1109/SP.2019.00008	2019	embedded	ieee
+[IEEE Symposium on Security and Privacy 2019] RIDL - Rogue In-Flight Data Load.	https://doi.org/10.1109/SP.2019.00087	meltdown	ridl	spectre
 [IEEE Symposium on Security and Privacy 2019] Resident Evil - Understanding Residential IP Proxy as a Dark Service.	https://doi.org/10.1109/SP.2019.00011	2019	embedded	ieee
 [IEEE Symposium on Security and Privacy 2019] Self-Encrypting Deception - Weaknesses in the Encryption of Solid State Drives.	https://doi.org/10.1109/SP.2019.00088	2019	firmware	ieee
 [IEEE Symposium on Security and Privacy 2019] SensorID - Sensor Calibration Fingerprinting for Smartphones.	https://doi.org/10.1109/SP.2019.00072	2019	embedded	firmware	ieee	smartphone
 [IEEE Symposium on Security and Privacy 2019] SoK - Security Evaluation of Home-Based IoT Deployments.	https://doi.org/10.1109/SP.2019.00013	2019	embedded	ieee	iot
+[IEEE Symposium on Security and Privacy 2019] Spectre Attacks - Exploiting Speculative Execution.	https://doi.org/10.1109/SP.2019.00002	spectre
 [IEEE Symposium on Security and Privacy 2019] Tap 'n Ghost - A Compilation of Novel Attack Techniques against Smartphone Touchscreens.	https://doi.org/10.1109/SP.2019.00037	2019	attack	embedded	ieee	smartphone
+[IEEE Symposium on Security and Privacy 2019] The Code That Never Ran - Modeling Attacks on Speculative Evaluation.	https://doi.org/10.1109/SP.2019.00047	spectre
 [IEEE Symposium on Security and Privacy 2019] Threshold ECDSA from ECDSA Assumptions - The Multiparty Case.	https://doi.org/10.1109/SP.2019.00024	2019	embedded	ieee
 [IEEE Symposium on Security and Privacy 2019] True2F - Backdoor-Resistant Authentication Tokens.	https://doi.org/10.1109/SP.2019.00048	2019	embedded	firmware	ieee
 [IEEE Symposium on Security and Privacy Workshops 2012] Privacy Control in Smart Phones Using Semantically Rich Reasoning and Context Modeling.	https://doi.org/10.1109/SPW.2012.27	2012	embedded	ieee
@@ -81,10 +85,14 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [NDSS 2018] What You Corrupt Is Not What You Crash - Challenges in Fuzzing Embedded Devices.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_01A-4_Muench_paper.pdf	2018	embedded	firmware	fuzz	ndss
 [NDSS 2018] When Coding Style Survives Compilation - De-anonymizing Programmers from Executable Binaries.	https://www.ndss-symposium.org/wp-content/uploads/2018/02/ndss2018_06B-2_Caliskan_paper.pdf	2018	embedded	ndss
 [NDSS 2019] DIAT - Data Integrity Attestation for Resilient Collaboration of Autonomous Systems.	https://www.ndss-symposium.org/ndss-paper/diat-data-integrity-attestation-for-resilient-collaboration-of-autonomous-systems/	2019	embedded	ndss
+[NDSS 2019] Data Oblivious ISA Extensions for Side Channel-Resistant and High Performance Computing.	https://www.ndss-symposium.org/ndss-paper/data-oblivious-isa-extensions-for-side-channel-resistant-and-high-performance-computing/	speculative
+[NDSS 2019] ExSpectre - Hiding Malware in Speculative Execution.	https://www.ndss-symposium.org/ndss-paper/exspectre-hiding-malware-in-speculative-execution/	meltdown	spectre	speculative
 [NDSS 2019] Ginseng - Keeping Secrets in Registers When You Distrust the Operating System.	https://www.ndss-symposium.org/ndss-paper/ginseng-keeping-secrets-in-registers-when-you-distrust-the-operating-system/	2019	embedded	firmware	ndss	operating-system
 [NDSS 2019] PeriScope - An Effective Probing and Fuzzing Framework for the Hardware-OS Boundary.	https://www.ndss-symposium.org/ndss-paper/periscope-an-effective-probing-and-fuzzing-framework-for-the-hardware-os-boundary/	2019	firmware	framework	fuzz	ndss
 [NDSS 2019] TIMBER-V - Tag-Isolated Memory Bringing Fine-grained Enclaves to RISC-V.	https://www.ndss-symposium.org/ndss-paper/timber-v-tag-isolated-memory-bringing-fine-grained-enclaves-to-risc-v/	2019	embedded	ndss
+[NDSS 2019] Total Recall - Persistence of Passwords in Android.	https://www.ndss-symposium.org/ndss-paper/total-recall-persistence-of-passwords-in-android/	meltdown	spectre
 [NDSS 2019] Understanding Open Ports in Android Applications - Discovery, Diagnosis, and Security Assessment.	https://www.ndss-symposium.org/ndss-paper/understanding-open-ports-in-android-applications-discovery-diagnosis-and-security-assessment/	2019	android	embedded	ndss
+[SCAM 2014] Bit-Level Taint Analysis	https://www2.cs.arizona.edu/~debray/Publications/bit-level-taint.pdf	taint	analysis	scam	2014
 [USENIX Annual Technical Conference 2019] Supporting Security Sensitive Tenants in a Bare-Metal Cloud.	https://www.usenix.org/conference/atc19/presentation/mosayyebzadeh	2019	cloud	firmware	usenix
 [USENIX Security Symposium 2009] CCCP - Secure Remote Storage for Computational RFIDs.	http://www.usenix.org/events/sec09/tech/full_papers/salajegheh.pdf	2009	embedded	usenix
 [USENIX Security Symposium 2009] NOZZLE - A Defense Against Heap-spraying Code Injection Attacks.	http://www.usenix.org/events/sec09/tech/full_papers/ratanaworabhan.pdf	2009	attack	defense	embedded	usenix
@@ -120,10 +128,16 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [USENIX Security Symposium 2018] A Bad Dream - Subverting Trusted Platform Module While You Are Sleeping.	https://www.usenix.org/conference/usenixsecurity18/presentation/han	2018	firmware	trusted	usenix
 [USENIX Security Symposium 2018] ACES - Automatic Compartments for Embedded Systems.	https://www.usenix.org/conference/usenixsecurity18/presentation/clements	2018	automatic	embedded	usenix
 [USENIX Security Symposium 2018] Inception - System-Wide Security Testing of Real-World Embedded Systems Software.	https://www.usenix.org/conference/usenixsecurity18/presentation/corteggiani	2018	embedded	firmware	usenix
+[USENIX Security Symposium 2018] Meltdown - Reading Kernel Memory from User Space.	https://www.usenix.org/conference/usenixsecurity18/presentation/lipp	meltdown
 [USENIX Security Symposium 2018] One&Done - A Single-Decryption EM-Based Attack on OpenSSL's Constant-Time Blinded RSA.	https://www.usenix.org/conference/usenixsecurity18/presentation/alam	2018	attack	embedded	usenix
 [USENIX Security Symposium 2018] The Dangers of Key Reuse - Practical Attacks on IPsec IKE.	https://www.usenix.org/conference/usenixsecurity18/presentation/felsch	2018	attack	firmware	usenix
+[USENIX Security Symposium 2019] A Systematic Evaluation of Transient Execution Attacks and Defenses.	https://www.usenix.org/conference/usenixsecurity19/presentation/canella	meltdown	spectre
 [USENIX Security Symposium 2019] Discovering and Understanding the Security Hazards in the Interactions between IoT Devices, Mobile Apps, and Clouds on Smart Home Platforms.	https://www.usenix.org/conference/usenixsecurity19/presentation/zhou	cloud	firmware	iot	mobile	usenix
 [USENIX Security Symposium 2019] Looking from the Mirror - Evaluating IoT Device Security through Mobile Companion Apps.	https://www.usenix.org/conference/usenixsecurity19/presentation/wang-xueqiang	2019	firmware	iot	mobile	usenix
+[USENIX Security Symposium 2019] Robust Website Fingerprinting Through the Cache Occupancy Channel.	https://www.usenix.org/conference/usenixsecurity19/presentation/shusterman	spectre
+[USENIX Security Symposium 2019] Site Isolation - Process Separation for Web Sites within the Browser.	https://www.usenix.org/conference/usenixsecurity19/presentation/reis	meltdown	spectre
 [USENIX Security Symposium 2019] The KNOB is Broken - Exploiting Low Entropy in the Encryption Key Negotiation Of Bluetooth BR/EDR.	https://www.usenix.org/conference/usenixsecurity19/presentation/antonioli	2019	firmware	usenix
 [USENIX Security Symposium 2019] simTPM - User-centric TPM for Mobile Devices.	https://www.usenix.org/conference/usenixsecurity19/presentation/chakraborty	2019	firmware	mobile	usenix
+[WOOT @ USENIX Security Symposium 2018] Spectre Returns! Speculation Attacks using the Return Stack Buffer.	https://www.usenix.org/conference/woot18/presentation/koruyeh	spectre
+[WOOT @ USENIX Security Symposium 2019] Two methods for exploiting speculative control flow hijacks.	https://www.usenix.org/conference/woot19/presentation/mambretti	meltdown	spectre
 [WOOT @ USENIX Security Symposium 2019] Vacuums in the Cloud - Analyzing Security in a Hardened IoT Ecosystem.	https://www.usenix.org/conference/woot19/presentation/ullrich	2019	cloud	firmware	iot	usenix

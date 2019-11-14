@@ -11,7 +11,7 @@ class Item:
 
 
 def get_items_from_bookshelf() -> List[Item]:
-    bookshelf_lines = open("bookshelf.tsv").readlines()
+    bookshelf_lines = open("../bookshelf.tsv").readlines()
     items = [Item(i, line[0], line[1], line[2:])
              for i, line in enumerate(map(lambda line: line.split("\t"), bookshelf_lines[1:]))]
     return items
