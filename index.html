@@ -51,6 +51,10 @@
         <script>
 
         var bookshelf;
+        var MIN_TOKEN_LEN = 3;
+        var filtered_items = new Set()
+        var saved_tags = []
+
         fetch('./bookshelf.tsv')
             .then(function(response) {
               return response.text();
@@ -74,9 +78,15 @@
             return tags
         }
 
+        function getWordsFromName(name){
+            var tokens = name.toLowerCase().replace('-', ' ').replace(/[^0-9a-z ]/gi, '').split(" ")
+            return tokens
+        }
+
         function parseBookshelfFile(text){
             var tag2items = new Map();
             var item2tags = new Map();
+            var word2items = new Map();
 
             lines = text.split("\n");
             for (var i=1; i<lines.length-1; i++){
@@ -84,6 +94,17 @@
                 var b = getItemFromLine(cur_line);
                 var tags = getTagsFromLine(cur_line);
                 item2tags.set(b, tags);
+                var name = b.name;
+                var words = getWordsFromName(name);
+                for (var word of words)
+                {
+                    if(word.length < MIN_TOKEN_LEN)
+                        continue
+                    if (!(word2items.has(word))) {
+                        word2items.set(word, new Set());
+                    }
+                    word2items.get(word).add(b);
+                }
                 for (var cur_tag of tags){
                     if (!(tag2items.has(cur_tag))){
                         tag2items.set(cur_tag, new Set());
@@ -92,7 +113,7 @@
                 }
 
             }
-            return new Bookshelf(item2tags, tag2items);
+            return new Bookshelf(item2tags, tag2items, word2items);
         }
 
         function buildItemList(items, bookshelf){
@@ -128,21 +149,24 @@
         }
 
         function onTagChange(field, editor, tags) {
+            saved_tags = tags
             $("#bookList").empty();
             if (tags.length==0 || field==null){
                 $("#bookList").append("<h2>All tags</h2>");
-                var list = buildItemList(bookshelf.item2tags.keys(), bookshelf);
+                var list = buildItemList(filtered_items, bookshelf);
                 $("#bookList").append(list);
             }
             else if (tags.length > 1) {
                items = findItemsFromTagListAND(tags, bookshelf);
+               var intersection = new Set([...items].filter(i => filtered_items.has(i)));
                $("#bookList").append("<h2>" + new Array(tags).join(" & ") + "</h2>");
-               var list = buildItemList(items, bookshelf);
+               var list = buildItemList(intersection, bookshelf);
                $("#bookList").append(list);
             }
             for (var tag of tags){
                 var items_from_tag = bookshelf.tag2items.get(tag);
-                var list = buildItemList(items_from_tag, bookshelf);
+                var intersection = new Set([...items_from_tag].filter(i => filtered_items.has(i)));
+                var list = buildItemList(intersection, bookshelf);
                 $("#bookList").append("<h2>" + tag + "</h2>");
                 $("#bookList").append(list);
             }
@@ -156,7 +180,7 @@
                      minLength: 1,
                      delay: 0
                  },
-                 placeholder: 'Fileter by tags, e.g. machine-learning, algorithms, computer-programming, conferences,  ...',
+                 placeholder: 'Filter by tags, e.g. machine-learning, algorithms, computer-programming, conferences,  ...',
                  onChange: onTagChange,
              });
 
@@ -172,9 +196,7 @@
                 code_tag.addClass("tag_code tag_off")
                 container.append(code_tag);
                 container.append(" ");
-
             }
-
         }
 
         function onclick_tag(tag){
@@ -196,15 +218,60 @@
             return f;
         }
 
+        function onSearchChanged(value)
+        {
+            if(value.length == 0) {
+                filtered_items = new Set(bookshelf.item2tags.keys())
+                onTagChange(null, null, saved_tags)
+                return
+            }
+            var tokens = getWordsFromName(value);
+            // console.log('tokens: ' + tokens)
+            filtered_items = new Set()
+            var cleared = true
+            for (var token of tokens) {
+                if (token.length == 0)
+                    continue
+                if(cleared) {
+                    cleared = false
+                    filtered_items = bookshelf.getItemsFromWord(token)
+                    // console.log('query: ' + token)
+                    // console.log('cleared: ' + Array.from(filtered_items))
+                }
+                else {
+                    filtered_items = new Set([...bookshelf.getItemsFromWord(token)].filter(i => filtered_items.has(i)));
+                    // console.log('intersected: ' + Array.from(filtered_items))
+                }
+            }
+            // console.log(filtered_items)
+            onTagChange(null, null, saved_tags)
+            return
+        }
+
+        function setup_search_bar()
+        {
+            var oldVal = "";
+            $("#searchbar").on("change keyup paste", function () {
+                var currentVal = $(this).val();
+                if (currentVal == oldVal) {
+                    return; //check to prevent multiple simultaneous triggers
+                }
+
+                oldVal = currentVal;
+                // console.log(currentVal)
+                onSearchChanged(currentVal)
+            });
+        }
+
         function main(text){
             bookshelf = parseBookshelfFile(text);
+            filtered_items = new Set(bookshelf.item2tags.keys())
             var tags = bookshelf.tag2items.keys();
             var tag_array = Array.from(tags).sort();
-
+            
+            setup_search_bar();
             setup_tag_editor(tag_array);
             setup_tag_list(tag_array);
-
-
         }
 
         </script>
