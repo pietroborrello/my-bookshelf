@@ -39,7 +39,12 @@
             </div>
             <div class="row">
                 <div class="col">
-                    <div id="booksList"></div>
+                    <input type="text" id="searchbar" class="searchbar" placeholder="Search..">
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div id="bookList"></div>
                 </div>
             </div>
         </div>
@@ -123,22 +128,23 @@
         }
 
         function onTagChange(field, editor, tags) {
-            $("#booksList").empty();
+            $("#bookList").empty();
             if (tags.length==0 || field==null){
-                $("#booksList").append("<h2>All tags</h2>");
-                tags = bookshelf.tag2items.keys();
+                $("#bookList").append("<h2>All tags</h2>");
+                var list = buildItemList(bookshelf.item2tags.keys(), bookshelf);
+                $("#bookList").append(list);
             }
-           else if (tags.length > 1) {
+            else if (tags.length > 1) {
                items = findItemsFromTagListAND(tags, bookshelf);
-               $("#booksList").append("<h2>" + new Array(tags).join(" & ") + "</h2>");
+               $("#bookList").append("<h2>" + new Array(tags).join(" & ") + "</h2>");
                var list = buildItemList(items, bookshelf);
-               $("#booksList").append(list);
-           }
+               $("#bookList").append(list);
+            }
             for (var tag of tags){
                 var items_from_tag = bookshelf.tag2items.get(tag);
                 var list = buildItemList(items_from_tag, bookshelf);
-                $("#booksList").append("<h2>" + tag + "</h2>");
-                $("#booksList").append(list);
+                $("#bookList").append("<h2>" + tag + "</h2>");
+                $("#bookList").append(list);
             }
         }
 
@@ -150,11 +156,11 @@
                      minLength: 1,
                      delay: 0
                  },
-                 placeholder: 'Enter tags, e.g. machine-learning, algorithms, computer-programming, papers, textbooks, websites,  ...',
+                 placeholder: 'Fileter by tags, e.g. machine-learning, algorithms, computer-programming, conferences,  ...',
                  onChange: onTagChange,
              });
 
-             onTagChange(null, null, tags);
+             onTagChange(null, null, []);
         }
 
         function setup_tag_list(tags){

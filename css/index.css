@@ -20,6 +20,26 @@ body{
     cursor:pointer;
 }
 
+.tag-editor{
+    border-radius: 5px;
+}
+
+.tag_code {
+    border-radius: 2px;
+    padding: 3px;
+}
+
+.searchbar {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    border: none; /* <-- This thing here */
+    border:solid 1px #ccc;
+    border-radius: 10px;
+    border-radius: 2px;
+    padding: 3px;
+}
+
 /* .tag_code.tag_on{
     background-color: #ffffff;
 }
