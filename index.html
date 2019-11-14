@@ -78,7 +78,20 @@
             return tags
         }
 
-        function getWordsFromName(name){
+        function getSubwordsFromName(name){
+            var words = name.toLowerCase().replace('-', ' ').replace(/[^0-9a-z ]/gi, '').split(" ")
+            var tokens = new Set()
+            for (var word of words)
+            {
+                for( var i = MIN_TOKEN_LEN; i <= word.length; i++)
+                {
+                    tokens.add(word.substring(0, i))
+                }
+            }
+            return tokens
+        }
+
+        function getTokensFromName(name){
             var tokens = name.toLowerCase().replace('-', ' ').replace(/[^0-9a-z ]/gi, '').split(" ")
             return tokens
         }
@@ -95,7 +108,7 @@
                 var tags = getTagsFromLine(cur_line);
                 item2tags.set(b, tags);
                 var name = b.name;
-                var words = getWordsFromName(name);
+                var words = getSubwordsFromName(name);
                 for (var word of words)
                 {
                     if(word.length < MIN_TOKEN_LEN)
@@ -225,12 +238,12 @@
                 onTagChange(null, null, saved_tags)
                 return
             }
-            var tokens = getWordsFromName(value);
+            var tokens = getTokensFromName(value);
             // console.log('tokens: ' + tokens)
             filtered_items = new Set()
             var cleared = true
             for (var token of tokens) {
-                if (token.length == 0)
+                if (token.length < MIN_TOKEN_LEN)
                     continue
                 if(cleared) {
                     cleared = false
