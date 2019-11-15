@@ -6,6 +6,7 @@ import time
 import sys
 import os
 import html
+from tqdm import tqdm
 
 class bcolors:
     HEADER = '\033[95m'
@@ -108,8 +109,8 @@ def avoid_broken_ndss_links(url):
         return '/'.join(['https://www.ndss-symposium.org/wp-content/uploads', year, month, paper])
     return url
 
-def filter_per_keyword(hits, keywords):
-    for hit in hits:
+def filter_per_keyword(hits, keywords, year):
+    for hit in tqdm(hits, desc=year):
         # be gentle
         time.sleep(random.choice([1,2,2,3,3,3,4,4,5,6]))
 
@@ -118,7 +119,7 @@ def filter_per_keyword(hits, keywords):
 
         hit = hit['info']
         if 'ee' not in hit:
-            print(bcolors.WARNING + "WARNING - no url for: " + hit["title"], bcolors.ENDC)
+            tqdm.write(bcolors.WARNING + "WARNING - no url for: " + hit["title"], bcolors.ENDC)
             continue
         
         title = hit['title']
@@ -145,7 +146,7 @@ def filter_per_keyword(hits, keywords):
                 abstract = html_body_template.format(
                     content=raw_abstract.decode(encoding='ascii', errors='ignore')).encode()
         except ConnectionError:
-            print(bcolors.FAIL + "ERROR - connection error on %s. URL: %s" % (title, url), bcolors.ENDC)
+            tqdm.write(bcolors.FAIL + "ERROR - connection error on %s. URL: %s" % (title, url), bcolors.ENDC)
             continue
 
         keywords_ok = []
@@ -160,7 +161,7 @@ def filter_per_keyword(hits, keywords):
 
             elif abstract is not None:
                 soup = BeautifulSoup(abstract, features="html.parser")
-                abstract_ascii = str(soup.body.text).lower()
+                abstract_ascii = str(soup.text).lower()
                 if keyword.lower() in abstract_ascii:
                     is_abstract_good = True
             if keyword.lower() in title.lower() or (not ONLY_TITLE and is_abstract_good):
@@ -215,8 +216,8 @@ def search(venue, year_min, year_max, keywords):
         #     os.mkdir(dirname)
         
         hits = search_per_venue(venue, year)
-        for result in filter_per_keyword(hits, keywords):
-            print("{}\n\tvenue: {}\n\tyear: {}".format(
+        for result in filter_per_keyword(hits, keywords, year):
+            tqdm.write("{}\n\tvenue: {}\n\tyear: {}".format(
                 bcolors.OKGREEN + html.unescape(result["title"]) + bcolors.ENDC,
                 venue, 
                 year))
