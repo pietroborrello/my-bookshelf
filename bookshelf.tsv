@@ -95,7 +95,7 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [IEEE Symposium on Security and Privacy 2016] Back in Black - Towards Formal, Black Box Analysis of Sanitizers and Filters.	https://doi.org/10.1109/SP.2016.14	symbolic
 [IEEE Symposium on Security and Privacy 2016] CaSE - Cache-Assisted Secure Execution on ARM Processors.	https://doi.org/10.1109/SP.2016.13	2016	embedded	ieee
 [IEEE Symposium on Security and Privacy 2016] Following Devil's Footprints - Cross-Platform Analysis of Potentially Harmful Libraries on Android and iOS.	https://doi.org/10.1109/SP.2016.29	2016	android	embedded	ieee
-[IEEE Symposium on Security and Privacy 2016] LAVA - Large-Scale Automated Vulnerability Addition.	https://doi.org/10.1109/SP.2016.15	2016	embedded	ieee	symbolic	taint	vulnerabilit
+[IEEE Symposium on Security and Privacy 2016] LAVA - Large-Scale Automated Vulnerability Addition.	https://doi.org/10.1109/SP.2016.15	2016	embedded	ieee	symbolic	taint	vulnerability
 [IEEE Symposium on Security and Privacy 2016] Synthesizing Plausible Privacy-Preserving Location Traces.	https://doi.org/10.1109/SP.2016.39	obfuscation
 [IEEE Symposium on Security and Privacy 2016] TriggerScope - Towards Detecting Logic Bombs in Android Applications.	https://doi.org/10.1109/SP.2016.30	symbolic
 [IEEE Symposium on Security and Privacy 2017] Backward-Bounded DSE - Targeting Infeasibility Questions on Obfuscated Codes.	https://doi.org/10.1109/SP.2017.36	obfuscation	symbolic
@@ -116,7 +116,7 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [IEEE Symposium on Security and Privacy 2018] Distance-Bounding Protocols - Verification without Time and Location.	https://doi.org/10.1109/SP.2018.00001	symbolic
 [IEEE Symposium on Security and Privacy 2018] Implementing Conjunction Obfuscation Under Entropic Ring LWE.	https://doi.org/10.1109/SP.2018.00007	obfuscation
 [IEEE Symposium on Security and Privacy 2018] Precise and Scalable Detection of Double-Fetch Bugs in OS Kernels.	https://doi.org/10.1109/SP.2018.00017	symbolic
-[IEEE Symposium on Security and Privacy 2018] Study and Mitigation of Origin Stripping Vulnerabilities in Hybrid-postMessage Enabled Mobile Applications.	https://doi.org/10.1109/SP.2018.00043	2018	embedded	ieee	mobile	vulnerabilit
+[IEEE Symposium on Security and Privacy 2018] Study and Mitigation of Origin Stripping Vulnerabilities in Hybrid-postMessage Enabled Mobile Applications.	https://doi.org/10.1109/SP.2018.00043	2018	embedded	ieee	mobile	vulnerability
 [IEEE Symposium on Security and Privacy 2018] T-Fuzz - Fuzzing by Program Transformation.	https://doi.org/10.1109/SP.2018.00056	symbolic	taint
 [IEEE Symposium on Security and Privacy 2018] Towards Security and Privacy for Multi-user Augmented Reality - Foundations with End Users.	https://doi.org/10.1109/SP.2018.00051	2018	embedded	ieee
 [IEEE Symposium on Security and Privacy 2018] Understanding Linux Malware.	https://doi.org/10.1109/SP.2018.00054	2018	embedded	ieee	malware
@@ -155,9 +155,7 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [IEEE Symposium on Security and Privacy Workshops 2018] Bringing a GAN to a Knife-Fight - Adapting Malware Communication to Avoid Detection.	https://doi.org/10.1109/SPW.2018.00019	obfuscation
 [IEEE Symposium on Security and Privacy Workshops 2019] Side Channel Attacks in Computation Offloading Systems with GPU Virtualization.	https://doi.org/10.1109/SPW.2019.00037	virtualization
 [NDSS 2009] IntScope - Automatically Detecting Integer Overflow Vulnerability in X86 Binary Using Symbolic Execution.	https://www.ndss-symposium.org/ndss2009/intscope-automatically-detecting-integer-overflow-vulnerability-in-x86-binary-using-symbolic-execution/	symbolic
-[NDSS 2009] Proceedings of the Network and Distributed System Security Symposium, NDSS 2009, San Diego, California, USA, 8th February - 11th February 2009	https://www.ndss-symposium.org/ndss2009/	symbolic
 [NDSS 2011] HTTPOS - Sealing Information Leaks with Browser-side Obfuscation of Encrypted Flows.	https://www.ndss-symposium.org/ndss2011/httpos-sealing-information-leaks-with-browser-side-obfuscation-of-encrypted-flows	obfuscation
-[NDSS 2011] Proceedings of the Network and Distributed System Security Symposium, NDSS 2011, San Diego, California, USA, 6th February - 9th February 2011	https://www.ndss-symposium.org/ndss2011/	obfuscation	taint
 [NDSS 2012] Hubble - Transparent and Extensible Malware Analysis by Combining Hardware Virtualization and Software Emulation.	https://www.ndss-symposium.org/ndss2012/hubble-transparent-and-extensible-malware-analysis-combining-hardware-virtualization-and-software	virtualization
 [NDSS 2012] Kruiser - Semi-synchronized Non-blocking Concurrent Kernel Heap Buffer Overflow Monitoring.	https://www.ndss-symposium.org/ndss2012/kruiser-semi-synchronized-non-blocking-concurrent-kernel-heap-buffer-overflow-monitoring	virtualization
 [NDSS 2012] SMART - Secure and Minimal Architecture for (Establishing Dynamic) Root of Trust.	https://www.ndss-symposium.org/ndss2012/smart-secure-and-minimal-architecture-establishing-dynamic-root-trust	2012	dynamic	embedded	ndss
@@ -169,7 +167,7 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [NDSS 2014] Detecting Logic Vulnerabilities in E-commerce Applications.	https://www.ndss-symposium.org/ndss2014/detecting-logic-vulnerabilities-e-commerce-applications	symbolic	taint
 [NDSS 2015] Bloom Cookies - Web Search Personalization without User Tracking.	https://www.ndss-symposium.org/ndss2015/bloom-cookies-web-search-personalization-without-user-tracking	obfuscation
 [NDSS 2015] DeepDroid - Dynamically Enforcing Enterprise Policy on Android Devices.	https://www.ndss-symposium.org/ndss2015/deepdroid-dynamically-enforcing-enterprise-policy-android-devices	2015	android	dynamic	firmware	ndss
-[NDSS 2015] Firmalice - Automatic Detection of Authentication Bypass Vulnerabilities in Binary Firmware.	https://www.ndss-symposium.org/ndss2015/firmalice-automatic-detection-authentication-bypass-vulnerabilities-binary-firmware	detect	embedded	firmware	ndss	symbolic	vulnerabilit
+[NDSS 2015] Firmalice - Automatic Detection of Authentication Bypass Vulnerabilities in Binary Firmware.	https://www.ndss-symposium.org/ndss2015/firmalice-automatic-detection-authentication-bypass-vulnerabilities-binary-firmware	detect	embedded	firmware	ndss	symbolic	vulnerability
 [NDSS 2015] No More Gotos - Decompilation Using Pattern-Independent Control-Flow Structuring and Semantic-Preserving Transformations.	https://www.ndss-symposium.org/ndss2015/no-more-gotos-decompilation-using-pattern-independent-control-flow-structuring-and-semantics	taint
 [NDSS 2015] Verified Contributive Channel Bindings for Compound Authentication.	https://www.ndss-symposium.org/ndss2015/verified-contributive-channel-bindings-compound-authentication	symbolic
 [NDSS 2016] Are these Ads Safe - Detecting Hidden Attacks through the Mobile App-Web Interfaces.	https://www.ndss-symposium.org/wp-content/uploads/2017/09/ads-safe-detecting-hidden-attacks-through-mobile-app-web-interfaces.pdf	attack	detect	embedded	mobile	web
@@ -249,9 +247,9 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [USENIX Security Symposium 2011] ADsafety - Type-Based Verification of JavaScript Sandboxing.	http://static.usenix.org/events/sec11/tech/full_papers/Politz.pdf	2011	embedded	sandbox	usenix
 [USENIX Security Symposium 2011] Cloaking Malware with the Trusted Platform Module.	http://static.usenix.org/events/sec11/tech/full_papers/Dunn.pdf	virtualization
 [USENIX Security Symposium 2011] Fast and Precise Sanitizer Analysis with BEK.	http://static.usenix.org/events/sec11/tech/full_papers/Hooimeijer.pdf	symbolic
-[USENIX Security Symposium 2011] Forensic Triage for Mobile Phones with DEC0DE.	http://static.usenix.org/events/sec11/tech/full_papers/Walls.pdf	2011	embedded	forensic	mobile	usenix
+[USENIX Security Symposium 2011] Forensic Triage for Mobile Phones with DEC0DE.	http://static.usenix.org/events/sec11/tech/full_papers/Walls.pdf	2011	embedded	forensics	mobile	usenix
 [USENIX Security Symposium 2011] MACE - Model-inference-Assisted Concolic Exploration for Protocol and Vulnerability Discovery.	http://static.usenix.org/events/sec11/tech/full_papers/Cho.pdf	symbolic
-[USENIX Security Symposium 2011] SHELLOS - Enabling Fast Detection and Forensic Analysis of Code Injection Attacks.	http://static.usenix.org/events/sec11/tech/full_papers/Snow.pdf	attack	detect	embedded	forensic	obfuscation	usenix	virtualization
+[USENIX Security Symposium 2011] SHELLOS - Enabling Fast Detection and Forensic Analysis of Code Injection Attacks.	http://static.usenix.org/events/sec11/tech/full_papers/Snow.pdf	attack	detect	embedded	forensics	obfuscation	usenix	virtualization
 [USENIX Security Symposium 2011] SMS of Death - From Analyzing to Attacking Mobile Phones on a Large Scale.	http://static.usenix.org/events/sec11/tech/full_papers/Mulliner.pdf	2011	attack	embedded	mobile	usenix
 [USENIX Security Symposium 2011] Toward Secure Embedded Web Interfaces.	http://static.usenix.org/events/sec11/tech/full_papers/Gourdin.pdf	2011	embedded	usenix	web
 [USENIX Security Symposium 2011] ZOZZLE - Fast and Precise In-Browser JavaScript Malware Detection.	http://static.usenix.org/events/sec11/tech/full_papers/Curtsinger.pdf	obfuscation
@@ -260,7 +258,7 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [USENIX Security Symposium 2012] TARDIS - Time and Remanence Decay in SRAM to Implement Secure Protocols on Embedded Devices without Clocks.	https://www.usenix.org/conference/usenixsecurity12/technical-sessions/presentation/rahmati	2012	embedded	usenix
 [USENIX Security Symposium 2013] Dismantling Megamos Crypto - Wirelessly Lockpicking a Vehicle Immobilizer.	https://www.usenix.org/conference/usenixsecurity15/technical-sessions/presentation/verdult	2013	embedded	usenix
 [USENIX Security Symposium 2013] Dowsing for Overflows - A Guided Fuzzer to Find Buffer Boundary Violations.	https://www.usenix.org/conference/usenixsecurity13/technical-sessions/papers/haller	symbolic	taint
-[USENIX Security Symposium 2013] FIE on Firmware - Finding Vulnerabilities in Embedded Systems Using Symbolic Execution.	https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/davidson	embedded	firmware	symbolic	usenix	vulnerabilit
+[USENIX Security Symposium 2013] FIE on Firmware - Finding Vulnerabilities in Embedded Systems Using Symbolic Execution.	https://www.usenix.org/conference/usenixsecurity13/technical-sessions/paper/davidson	embedded	firmware	symbolic	usenix	vulnerability
 [USENIX Security Symposium 2013] Let Me Answer That for You - Exploiting Broadcast Information in Cellular Networks.	https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/golde	2013	firmware	usenix
 [USENIX Security Symposium 2013] MetaSymploit - Day-One Defense against Script-based Attacks with Security-Enhanced Symbolic Analysis.	https://www.usenix.org/conference/usenixsecurity13/technical-sessions/papers/wang	symbolic
 [USENIX Security Symposium 2013] Revolver - An Automated Approach to the Detection of Evasive Web-based Malware.	https://www.usenix.org/conference/usenixsecurity13/technical-sessions/presentation/kapravelos	obfuscation

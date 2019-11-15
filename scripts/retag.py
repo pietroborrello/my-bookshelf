@@ -36,7 +36,18 @@ ndss
 usenix
 acm
 ieee
+network
+virtual
+obfuscat
 ''' + '\n'.join(str(i) for i in range(2000, 2021))
+
+translations = {
+    'obfuscat': 'obfuscation',
+    'virtual': 'virtualization',
+    'vulnerabilit': 'vulnerability',
+    'trac': 'tracing',
+    'forensic': 'forensics'
+}
 
 filename = os.path.join(os.path.dirname(
     os.path.realpath(__file__)), "../bookshelf.tsv")
@@ -57,6 +68,8 @@ if __name__ == "__main__":
         mangled_title = title.lower().replace(' ', '-')
         for tag in tag_list:
             if tag in mangled_title and tag not in current_tags and len(current_tags) < 5:
+                if tag in translations:
+                    tag = translations[tag]
                 current_tags.append(tag)
 
         papers[title] = "{title}\t{link}\t{keywords}".format(
