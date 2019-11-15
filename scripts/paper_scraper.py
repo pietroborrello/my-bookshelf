@@ -27,8 +27,10 @@ def search_per_venue(venue: str, year: str):
         query_template.format(year=year, venue=venue, limit=1000) 
     )
     res  = r.json()
-    hits = res['result']['hits']['hit']
-    return hits
+    if 'hit' in res['result']['hits']:
+        hits = res['result']['hits']['hit']
+        return hits
+    return []
 
 def get_domain(url):
     domain_init_idx = url.find("://")+3
@@ -60,9 +62,9 @@ def avoid_broken_ndss_links(url):
         return '/'.join(['https://www.ndss-symposium.org/wp-content/uploads', year, month, paper])
     return url
 
-def filter_per_keyword(hits, keyword):
+def filter_per_keyword(hits, keywords):
     for hit in hits:
-        hit   = hit['info']
+        hit = hit['info']
         if 'ee' not in hit:
             print(bcolors.WARNING + "WARNING - no url for: " + hit["title"], bcolors.ENDC)
             continue
@@ -134,17 +136,8 @@ def write_log(filename):
         for title in sorted(papers):
             f.write(papers[title].strip())
             f.write('\n')
-    
-if __name__=="__main__":
-    if len(sys.argv) < 5:
-        print("USAGE: python3 %s venue year_min year_max keyword1 [keyword2 ...]" % sys.argv[0])
-        exit(1)
 
-    venue    = sys.argv[1]
-    year_min = int(sys.argv[2])
-    year_max = int(sys.argv[3])
-    keywords = sys.argv[4:]
-
+def search(venue, year_min, year_max, keywords):
     # logfile = open(logfile_path, "a")
     parse_log(logfile_path)
 
@@ -187,3 +180,16 @@ if __name__=="__main__":
             # else:
             #     print("\tNO PDF!")
     write_log(logfile_path)
+
+
+if __name__ == "__main__":
+    if len(sys.argv) < 5:
+        print(
+            "USAGE: python3 %s venue year_min year_max keyword1 [keyword2 ...]" % sys.argv[0])
+        exit(1)
+
+    venue = sys.argv[1]
+    year_min = int(sys.argv[2])
+    year_max = int(sys.argv[3])
+    keywords = sys.argv[4:]
+    search(venue, year_min, year_max, keywords)
