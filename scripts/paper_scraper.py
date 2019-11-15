@@ -133,7 +133,8 @@ def filter_per_keyword(hits, keywords, year):
             url = avoid_broken_ndss_links(url)
             r = s.get(url)
             if r.status_code != 200:
-                print(bcolors.FAIL + ('ERROR - Failed %d: %s' % (r.status_code,url)) + bcolors.ENDC)
+                tqdm.write(bcolors.FAIL + ('ERROR - Failed %d: %s' %
+                                           (r.status_code, url)) + bcolors.ENDC)
                 abstract = None
             else:
                 abstract = r.content
@@ -143,7 +144,7 @@ def filter_per_keyword(hits, keywords, year):
                 r = s.get(acm_abstract_template.format(
                     doi_id=doi_id), headers={'referer':r.url})
                 if r.status_code != 200:
-                    print(bcolors.FAIL + ('ERROR - Failed %d: %s' % (r.status_code,                   
+                    tqdm.write(bcolors.FAIL + ('ERROR - Failed %d: %s' % (r.status_code,
                         acm_abstract_template.format(
                             doi_id=doi_id))) + bcolors.ENDC)
                     abstract = None
