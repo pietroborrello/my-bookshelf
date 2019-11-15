@@ -1,6 +1,8 @@
 from IPython import embed
 from bs4 import BeautifulSoup
 import requests
+import random
+import time
 import sys
 import os
 import html
@@ -20,12 +22,56 @@ papers = dict() # title -> data
 TITLE = 'Title\tLink\ttag00\ttag01\ttag02\ttag03\ttag04\ttag05\ttag06\ttag07\ttag08\ttag09\ttag10\ttag11\ttag12\ttag13\ttag14'
 
 query_template = "https://dblp.org/search/publ/api?q=year:{year}%20venue:{venue}&h={limit}&format=json"
+acm_abstract_template = 'https://dl.acm.org/tab_abstract.cfm?id={doi_id}'
+html_body_template = '''<html>
+<body>
+{content}
+</body>
+</html>'''
 logfile_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), "../bookshelf.tsv")
+
+user_agent_list = [
+    #Chrome
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 5.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.2; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.90 Safari/537.36',
+    'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/44.0.2403.157 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.3; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/60.0.3112.113 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.133 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+    'Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 Safari/537.36',
+    #Firefox
+    'Mozilla/4.0 (compatible; MSIE 9.0; Windows NT 6.1)',
+    'Mozilla/5.0 (Windows NT 6.1; WOW64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; WOW64; Trident/5.0)',
+    'Mozilla/5.0 (Windows NT 6.1; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (Windows NT 6.2; WOW64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (Windows NT 10.0; WOW64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.0; Trident/5.0)',
+    'Mozilla/5.0 (Windows NT 6.3; WOW64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (compatible; MSIE 9.0; Windows NT 6.1; Trident/5.0)',
+    'Mozilla/5.0 (Windows NT 6.1; Win64; x64; Trident/7.0; rv:11.0) like Gecko',
+    'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; WOW64; Trident/6.0)',
+    'Mozilla/5.0 (compatible; MSIE 10.0; Windows NT 6.1; Trident/6.0)',
+    'Mozilla/4.0 (compatible; MSIE 8.0; Windows NT 5.1; Trident/4.0; .NET CLR 2.0.50727; .NET CLR 3.0.4506.2152; .NET CLR 3.5.30729)'
+]
+
+def generate_header():
+    user_agent = random.choice(user_agent_list)
+    headers = {'User-Agent': user_agent}
+    return headers
+
 
 def search_per_venue(venue: str, year: str):
     r = requests.get(
-        query_template.format(year=year, venue=venue, limit=1000) 
+        query_template.format(year=year, venue=venue, limit=1000),
+        headers=generate_header()
     )
+    if r.status_code != 200:
+        raise Exception('Failed %d: %s' % (
+            r.status_code, query_template.format(year=year, venue=venue, limit=1000)))
     res  = r.json()
     if 'hit' in res['result']['hits']:
         hits = res['result']['hits']['hit']
@@ -64,6 +110,12 @@ def avoid_broken_ndss_links(url):
 
 def filter_per_keyword(hits, keywords):
     for hit in hits:
+        # be gentle
+        time.sleep(random.choice([1,2,2,3,3,3,4,4,5,6]))
+
+        s = requests.Session()
+        s.headers.update(generate_header())
+
         hit = hit['info']
         if 'ee' not in hit:
             print(bcolors.WARNING + "WARNING - no url for: " + hit["title"], bcolors.ENDC)
@@ -77,7 +129,21 @@ def filter_per_keyword(hits, keywords):
 
         try:
             url = avoid_broken_ndss_links(url)
-            abstract = requests.get(url).content
+            r = s.get(url)
+            if r.status_code != 200:
+                raise Exception('Failed %d: %s' % (r.status_code,url))
+            abstract = r.content
+            if 'acm.org' in r.url.lower():
+                doi_id = url.split('.')[-1].strip()
+                r = s.get(acm_abstract_template.format(
+                    doi_id=doi_id), headers={'referer':r.url})
+                if r.status_code != 200:
+                    raise Exception('Failed %d: %s' % (r.status_code,                   
+                        acm_abstract_template.format(
+                            doi_id=doi_id)))
+                raw_abstract = r.content
+                abstract = html_body_template.format(
+                    content=raw_abstract.decode(encoding='ascii', errors='ignore')).encode()
         except ConnectionError:
             print(bcolors.FAIL + "ERROR - connection error on %s. URL: %s" % (title, url), bcolors.ENDC)
             continue
@@ -172,7 +238,7 @@ def search(venue, year_min, year_max, keywords):
 
             # if result["paper"] is not None:
             #     try:
-            #         blob = requests.get(result["paper"]).content
+            #         blob = requests.get(result["paper"], headers=generate_header()).content
             #     except:
             #         print("error during downloading pdf, url: %s" % result["paper"])
             #     with open(dirname+"/"+result["title"].replace(" ", "_").replace("/", "")+".pdf", "wb") as fout:
