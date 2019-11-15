@@ -39,6 +39,15 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [ACM Conference on Computer and Communications Security 2017] Implementing BP-Obfuscation Using Graph-Induced Encoding.	https://doi.org/10.1145/3133956.3133976	2017	acm	obfuscation
 [ACM Conference on Computer and Communications Security 2018] Symbolic Proofs for Lattice-Based Cryptography.	https://doi.org/10.1145/3243734.3243825	2018	acm	symbolic
 [ACM Conference on Computer and Communications Security 2018] vNIDS - Towards Elastic Security with Safe and Efficient Virtualization of Network Intrusion Detection Systems.	https://doi.org/10.1145/3243734.3243862	2018	acm	detect	network	virtualization
+[ACSAC 2010] A quantitative analysis of the insecurity of embedded network devices - results of a wide-area scan.	https://doi.org/10.1145/1920261.1920276	2010	embedded	network
+[ACSAC 2010] SCA-resistant embedded processors - the next generation.	https://doi.org/10.1145/1920261.1920293	2010	embedded
+[ACSAC 2011] From prey to hunter - transforming legacy embedded devices into exploitation sensor grids.	https://doi.org/10.1145/2076732.2076788	2011	embedded
+[ACSAC 2012] Enabling trusted scheduling in embedded systems.	https://doi.org/10.1145/2420950.2420960	2012	embedded	trusted
+[ACSAC 2014] Interrupt-oriented bugdoor programming - a minimalist approach to bugdooring embedded systems firmware.	https://doi.org/10.1145/2664243.2664268	2014	embedded	firmware
+[ACSAC 2015] Defending Against Malicious USB Firmware with GoodUSB.	https://doi.org/10.1145/2818000.2818040	2015	firmware
+[ACSAC 2015] PIE - Parser Identification in Embedded Systems.	https://doi.org/10.1145/2818000.2818035	2015	embedded
+[ACSAC 2015] Soteria - Offline Software Protection within Low-cost Embedded Devices.	https://doi.org/10.1145/2818000.2856129	2015	embedded
+[ACSAC 2016] Formal security analysis of smart embedded systems.	http://dl.acm.org/citation.cfm?id=2991085	2016	embedded
 [ASE @ USENIX Security Symposium 2016] A Tool for Teaching Reverse Engineering.	https://www.usenix.org/conference/ase16/workshop-program/presentation/taylor	2016	obfuscation	tool	usenix
 [ASE @ USENIX Security Symposium 2018] Teaching with angr - A Symbolic Execution Curriculum and CTF.	https://www.usenix.org/conference/ase18/presentation/springer	2018	symbolic	usenix
 [BAR @ NDSS 2018] Avatar2: A Multi-target Orchestration Platform	http://s3.eurecom.fr/docs/bar18_muench.pdf	2018	embedded	firmware	ndss	tool
@@ -227,6 +236,7 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [NDSS 2019] TIMBER-V - Tag-Isolated Memory Bringing Fine-grained Enclaves to RISC-V.	https://www.ndss-symposium.org/ndss-paper/timber-v-tag-isolated-memory-bringing-fine-grained-enclaves-to-risc-v/	2019	embedded	ndss
 [NDSS 2019] Total Recall - Persistence of Passwords in Android.	https://www.ndss-symposium.org/ndss-paper/total-recall-persistence-of-passwords-in-android/	2019	android	meltdown	ndss	spectre
 [NDSS 2019] Understanding Open Ports in Android Applications - Discovery, Diagnosis, and Security Assessment.	https://www.ndss-symposium.org/ndss-paper/understanding-open-ports-in-android-applications-discovery-diagnosis-and-security-assessment/	2019	android	embedded	ndss
+[PPREW@ACSAC 2015] A Complement to Enhanced Instruction Register File against Embedded Software Falsification.	https://doi.org/10.1145/2843859.2843864	2015	embedded
 [SCAM 2014] Bit-Level Taint Analysis	https://www2.cs.arizona.edu/~debray/Publications/bit-level-taint.pdf	2014	analysis	scam	taint
 [SOUPS @ USENIX Security Symposium 2018] Programming Experience Might Not Help in Comprehending Obfuscated Source Code Efficiently.	https://www.usenix.org/conference/soups2018/presentation/hansch	2018	obfuscation	usenix
 [SOUPS @ USENIX Security Symposium 2019] Of Two Minds about Two-Factor - Understanding Everyday FIDO U2F Usability through Device Comparison and Experience Sampling.	https://www.usenix.org/conference/soups2019/presentation/ciolino	2019	taint	usenix
