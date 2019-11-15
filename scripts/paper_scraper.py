@@ -70,8 +70,9 @@ def search_per_venue(venue: str, year: str):
         headers=generate_header()
     )
     if r.status_code != 200:
-        raise Exception('Failed %d: %s' % (
-            r.status_code, query_template.format(year=year, venue=venue, limit=1000)))
+        print(bcolors.FAIL + ('ERROR - Failed %d: %s' % (
+            r.status_code, query_template.format(year=year, venue=venue, limit=1000))) + bcolors.ENDC)
+        return []
     res  = r.json()
     if 'hit' in res['result']['hits']:
         hits = res['result']['hits']['hit']
@@ -131,19 +132,24 @@ def filter_per_keyword(hits, keywords):
             url = avoid_broken_ndss_links(url)
             r = s.get(url)
             if r.status_code != 200:
-                raise Exception('Failed %d: %s' % (r.status_code,url))
-            abstract = r.content
+                print(bcolors.FAIL + ('ERROR - Failed %d: %s' % (r.status_code,url)) + bcolors.ENDC)
+                abstract = None
+            else:
+                abstract = r.content
+                
             if 'acm.org' in r.url.lower():
                 doi_id = url.split('.')[-1].strip()
                 r = s.get(acm_abstract_template.format(
                     doi_id=doi_id), headers={'referer':r.url})
                 if r.status_code != 200:
-                    raise Exception('Failed %d: %s' % (r.status_code,                   
+                    print(bcolors.FAIL + ('ERROR - Failed %d: %s' % (r.status_code,                   
                         acm_abstract_template.format(
-                            doi_id=doi_id)))
-                raw_abstract = r.content
-                abstract = html_body_template.format(
-                    content=raw_abstract.decode(encoding='ascii', errors='ignore')).encode()
+                            doi_id=doi_id))) + bcolors.ENDC)
+                    abstract = None
+                else:
+                    raw_abstract = r.content
+                    abstract = html_body_template.format(
+                        content=raw_abstract.decode(encoding='ascii', errors='ignore')).encode()
         except ConnectionError:
             print(bcolors.FAIL + "ERROR - connection error on %s. URL: %s" % (title, url), bcolors.ENDC)
             continue
