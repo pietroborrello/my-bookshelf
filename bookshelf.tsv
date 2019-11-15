@@ -327,7 +327,7 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [USENIX Security Symposium 2018] Meltdown - Reading Kernel Memory from User Space.	https://www.usenix.org/conference/usenixsecurity18/presentation/lipp	2018	kernel	meltdown	usenix
 [USENIX Security Symposium 2018] NetHide - Secure and Practical Network Topology Obfuscation.	https://www.usenix.org/conference/usenixsecurity18/presentation/meier	2018	network	obfuscation	usenix
 [USENIX Security Symposium 2018] One&Done - A Single-Decryption EM-Based Attack on OpenSSL's Constant-Time Blinded RSA.	https://www.usenix.org/conference/usenixsecurity18/presentation/alam	2018	attack	embedded	usenix
-[USENIX Security Symposium 2018] QSYM - A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing.	https://www.usenix.org/conference/usenixsecurity18/presentation/yun	symbolic
+[USENIX Security Symposium 2018] QSYM - A Practical Concolic Execution Engine Tailored for Hybrid Fuzzing.	https://www.usenix.org/conference/usenixsecurity18/presentation/yun	2018	fuzz	symbolic	usenix
 [USENIX Security Symposium 2018] Security Namespace - Making Linux Security Frameworks Available to Containers.	https://www.usenix.org/conference/usenixsecurity18/presentation/sun	2018	framework	usenix	virtualization
 [USENIX Security Symposium 2018] Sensitive Information Tracking in Commodity IoT.	https://www.usenix.org/conference/usenixsecurity18/presentation/celik	2018	iot	taint	tracing	usenix
 [USENIX Security Symposium 2018] Tackling runtime-based obfuscation in Android with TIRO.	https://www.usenix.org/conference/usenixsecurity18/presentation/wong	2018	android	obfuscation	usenix
