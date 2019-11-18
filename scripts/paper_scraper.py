@@ -110,7 +110,7 @@ def avoid_broken_ndss_links(url):
         return '/'.join(['https://www.ndss-symposium.org/wp-content/uploads', year, month, paper])
     return url
 
-def filter_per_keyword(hits, keywords, year):
+def filter_per_keyword(hits, keywords, year, venue):
     for hit in tqdm(hits, desc=year):
         # be gentle
         time.sleep(random.choice([1,2,2,3,3,3,4,4,5,6]))
@@ -120,7 +120,7 @@ def filter_per_keyword(hits, keywords, year):
 
         hit = hit['info']
         if 'ee' not in hit:
-            tqdm.write(bcolors.WARNING + "WARNING - no url for: " + hit["title"], bcolors.ENDC)
+            tqdm.write(bcolors.WARNING + "WARNING - no url for: " + hit["title"] + bcolors.ENDC)
             continue
         
         title = hit['title']
@@ -162,8 +162,9 @@ def filter_per_keyword(hits, keywords, year):
             if abstract is not None and b"%PDF" == abstract[:4]:
                 with open("/tmp/tmp.pdf", "wb") as fout:
                     fout.write(abstract)
-                is_abstract_good = os.system("pdfgrep --page-range=1 '{pattern}' /tmp/tmp.pdf > /dev/null".format(
-                    pattern=keyword
+                is_abstract_good = os.system("pdfgrep --page-range={p_range} '{pattern}' /tmp/tmp.pdf > /dev/null".format(
+                    pattern=keyword,
+                    p_range= "1-2" if 'usenix' in venue else "1"
                 )) == 0
 
             elif abstract is not None:
@@ -223,7 +224,7 @@ def search(venue, year_min, year_max, keywords):
         #     os.mkdir(dirname)
         
         hits = search_per_venue(venue, year)
-        for result in filter_per_keyword(hits, keywords, year):
+        for result in filter_per_keyword(hits, keywords, year, venue):
             tqdm.write("{}\n\tvenue: {}\n\tyear: {}".format(
                 bcolors.OKGREEN + html.unescape(result["title"]) + bcolors.ENDC,
                 venue, 
