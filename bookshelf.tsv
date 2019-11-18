@@ -256,13 +256,13 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [NDSS 2019] TIMBER-V - Tag-Isolated Memory Bringing Fine-grained Enclaves to RISC-V.	https://www.ndss-symposium.org/ndss-paper/timber-v-tag-isolated-memory-bringing-fine-grained-enclaves-to-risc-v/	2019	embedded	ndss
 [NDSS 2019] Total Recall - Persistence of Passwords in Android.	https://www.ndss-symposium.org/ndss-paper/total-recall-persistence-of-passwords-in-android/	2019	android	meltdown	ndss	spectre
 [NDSS 2019] Understanding Open Ports in Android Applications - Discovery, Diagnosis, and Security Assessment.	https://www.ndss-symposium.org/ndss-paper/understanding-open-ports-in-android-applications-discovery-diagnosis-and-security-assessment/	2019	android	embedded	ndss
-[PPREW@ACSAC 2015] A Complement to Enhanced Instruction Register File against Embedded Software Falsification.	https://doi.org/10.1145/2843859.2843864	2015	acsac	embedded
+[PPREW @ ACSAC 2015] A Complement to Enhanced Instruction Register File against Embedded Software Falsification.	https://doi.org/10.1145/2843859.2843864	2015	acsac	embedded
 [SCAM 2014] Bit-Level Taint Analysis	https://www2.cs.arizona.edu/~debray/Publications/bit-level-taint.pdf	2014	analysis	scam	taint
 [SOUPS @ USENIX Security Symposium 2018] Programming Experience Might Not Help in Comprehending Obfuscated Source Code Efficiently.	https://www.usenix.org/conference/soups2018/presentation/hansch	2018	obfuscation	usenix
 [SOUPS @ USENIX Security Symposium 2019] Of Two Minds about Two-Factor - Understanding Everyday FIDO U2F Usability through Device Comparison and Experience Sampling.	https://www.usenix.org/conference/soups2019/presentation/ciolino	2019	taint	usenix
 [SOUPS @ USENIX Security Symposium 2019] Privacy and Security Threat Models and Mitigation Strategies of Older Adults.	https://www.usenix.org/conference/soups2019/presentation/frik	2019	taint	usenix
-[SSPREW@ACSAC 2016] Buffer overflow attack's power consumption signatures.	https://doi.org/10.1145/3015135.3015141	2016	acsac	attack	embedded
-[SSPREW@ACSAC 2018] On-Device Detection via Anomalous Environmental Factors.	https://doi.org/10.1145/3289239.3289246	2018	acsac	detect	embedded
+[SSPREW @ ACSAC 2016] Buffer overflow attack's power consumption signatures.	https://doi.org/10.1145/3015135.3015141	2016	acsac	attack	embedded
+[SSPREW @ ACSAC 2018] On-Device Detection via Anomalous Environmental Factors.	https://doi.org/10.1145/3289239.3289246	2018	acsac	detect	embedded
 [USENIX Annual Technical Conference 2015] SecPod - a Framework for Virtualization-based Security Systems.	https://www.usenix.org/conference/atc15/technical-session/presentation/wang-xiaoguang	2015	framework	usenix	virtualization
 [USENIX Annual Technical Conference 2019] Supporting Security Sensitive Tenants in a Bare-Metal Cloud.	https://www.usenix.org/conference/atc19/presentation/mosayyebzadeh	2019	cloud	firmware	usenix
 [USENIX Security Symposium 2009] CCCP - Secure Remote Storage for Computational RFIDs.	http://www.usenix.org/events/sec09/tech/full_papers/salajegheh.pdf	2009	embedded	usenix
