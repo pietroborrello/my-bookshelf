@@ -40,14 +40,33 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [ACM Conference on Computer and Communications Security 2018] Symbolic Proofs for Lattice-Based Cryptography.	https://doi.org/10.1145/3243734.3243825	2018	acm	symbolic
 [ACM Conference on Computer and Communications Security 2018] vNIDS - Towards Elastic Security with Safe and Efficient Virtualization of Network Intrusion Detection Systems.	https://doi.org/10.1145/3243734.3243862	2018	acm	detect	network	virtualization
 [ACSAC 2010] A quantitative analysis of the insecurity of embedded network devices - results of a wide-area scan.	https://doi.org/10.1145/1920261.1920276	2010	embedded	network
+[ACSAC 2010] Cujo - efficient detection and prevention of drive-by-download attacks.	https://doi.org/10.1145/1920261.1920267	2010	attack	detect	embedded
+[ACSAC 2010] Porscha - policy oriented secure content handling in Android.	https://doi.org/10.1145/1920261.1920295	2010	android	embedded
 [ACSAC 2010] SCA-resistant embedded processors - the next generation.	https://doi.org/10.1145/1920261.1920293	2010	embedded
-[ACSAC 2011] From prey to hunter - transforming legacy embedded devices into exploitation sensor grids.	https://doi.org/10.1145/2076732.2076788	2011	embedded
+[ACSAC 2010] Securing interactive sessions using mobile device through visual channel and visual inspection.	https://doi.org/10.1145/1920261.1920272	2010	embedded	mobile
+[ACSAC 2011] AdSentry - comprehensive and flexible confinement of JavaScript-based advertisements.	https://doi.org/10.1145/2076732.2076774	2011	embedded
+[ACSAC 2011] Attacks on WebView in the Android system.	https://doi.org/10.1145/2076732.2076781	2011	android	attack	embedded	web
+[ACSAC 2011] From prey to hunter - transforming legacy embedded devices into exploitation sensor grids.	https://doi.org/10.1145/2076732.2076788	2011	embedded	firmware
 [ACSAC 2012] Enabling trusted scheduling in embedded systems.	https://doi.org/10.1145/2420950.2420960	2012	embedded	trusted
+[ACSAC 2012] Twitter games - how successful spammers pick targets.	https://doi.org/10.1145/2420950.2421007	2012	embedded
+[ACSAC 2012] When hardware meets software - a bulletproof solution to forensic memory acquisition.	https://doi.org/10.1145/2420950.2420962	2012	firmware	forensics
+[ACSAC 2013] CPS - stateful policy enforcement for control system device usage.	https://doi.org/10.1145/2523649.2523673	2013	embedded
+[ACSAC 2013] Implementation and implications of a stealth hard-drive backdoor.	https://doi.org/10.1145/2523649.2523661	2013	firmware
+[ACSAC 2014] Advanced Wi-Fi attacks using commodity hardware.	https://doi.org/10.1145/2664243.2664260	2014	attack	firmware
 [ACSAC 2014] Interrupt-oriented bugdoor programming - a minimalist approach to bugdooring embedded systems firmware.	https://doi.org/10.1145/2664243.2664268	2014	embedded	firmware
 [ACSAC 2015] Defending Against Malicious USB Firmware with GoodUSB.	https://doi.org/10.1145/2818000.2818040	2015	firmware
-[ACSAC 2015] PIE - Parser Identification in Embedded Systems.	https://doi.org/10.1145/2818000.2818035	2015	embedded
+[ACSAC 2015] Emerging Image Game CAPTCHAs for Resisting Automated and Human-Solver Relay Attacks.	https://doi.org/10.1145/2818000.2818006	2015	attack	embedded
+[ACSAC 2015] PIE - Parser Identification in Embedded Systems.	https://doi.org/10.1145/2818000.2818035	2015	embedded	firmware
 [ACSAC 2015] Soteria - Offline Software Protection within Low-cost Embedded Devices.	https://doi.org/10.1145/2818000.2856129	2015	embedded
 [ACSAC 2016] Formal security analysis of smart embedded systems.	http://dl.acm.org/citation.cfm?id=2991085	2016	embedded
+[ACSAC 2017] Co-processor-based Behavior Monitoring - Application to the Detection of Attacks Against the System Management Mode.	https://doi.org/10.1145/3134600.3134622	2017	attack	detect	firmware
+[ACSAC 2017] ECFI - Asynchronous Control Flow Integrity for Programmable Logic Controllers.	https://doi.org/10.1145/3134600.3134618	2017	embedded
+[ACSAC 2017] Orpheus - Enforcing Cyber-Physical Execution Semantics to Defend Against Data-Oriented Attacks.	https://doi.org/10.1145/3134600.3134640	2017	attack	embedded
+[ACSAC 2017] Piston - Uncooperative Remote Runtime Patching.	https://doi.org/10.1145/3134600.3134611	2017	embedded
+[ACSAC 2017] RevARM - A Platform-Agnostic ARM Binary Rewriter for Security Applications.	https://doi.org/10.1145/3134600.3134627	2017	embedded
+[ACSAC 2017] Supporting Transparent Snapshot for Bare-metal Malware Analysis on Mobile Devices.	https://doi.org/10.1145/3134600.3134647	2017	firmware	malware	mobile
+[ACSAC 2017] VulCAN - Efficient Component Authentication and Software Isolation for Automotive Control Networks.	https://doi.org/10.1145/3134600.3134623	2017	embedded	network
+[ACSAC 2018] ICSD - An Automatic System for Insecure Code Snippet Detection in Stack Overflow over Heterogeneous Information Network.	https://doi.org/10.1145/3274694.3274742	2018	automatic	detect	embedded	network
 [ASE @ USENIX Security Symposium 2016] A Tool for Teaching Reverse Engineering.	https://www.usenix.org/conference/ase16/workshop-program/presentation/taylor	2016	obfuscation	tool	usenix
 [ASE @ USENIX Security Symposium 2018] Teaching with angr - A Symbolic Execution Curriculum and CTF.	https://www.usenix.org/conference/ase18/presentation/springer	2018	symbolic	usenix
 [BAR @ NDSS 2018] Avatar2: A Multi-target Orchestration Platform	http://s3.eurecom.fr/docs/bar18_muench.pdf	2018	embedded	firmware	ndss	tool
@@ -241,6 +260,8 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [SOUPS @ USENIX Security Symposium 2018] Programming Experience Might Not Help in Comprehending Obfuscated Source Code Efficiently.	https://www.usenix.org/conference/soups2018/presentation/hansch	2018	obfuscation	usenix
 [SOUPS @ USENIX Security Symposium 2019] Of Two Minds about Two-Factor - Understanding Everyday FIDO U2F Usability through Device Comparison and Experience Sampling.	https://www.usenix.org/conference/soups2019/presentation/ciolino	2019	taint	usenix
 [SOUPS @ USENIX Security Symposium 2019] Privacy and Security Threat Models and Mitigation Strategies of Older Adults.	https://www.usenix.org/conference/soups2019/presentation/frik	2019	taint	usenix
+[SSPREW@ACSAC 2016] Buffer overflow attack's power consumption signatures.	https://doi.org/10.1145/3015135.3015141	2016	attack	embedded
+[SSPREW@ACSAC 2018] On-Device Detection via Anomalous Environmental Factors.	https://doi.org/10.1145/3289239.3289246	2018	detect	embedded
 [USENIX Annual Technical Conference 2015] SecPod - a Framework for Virtualization-based Security Systems.	https://www.usenix.org/conference/atc15/technical-session/presentation/wang-xiaoguang	2015	framework	usenix	virtualization
 [USENIX Annual Technical Conference 2019] Supporting Security Sensitive Tenants in a Bare-Metal Cloud.	https://www.usenix.org/conference/atc19/presentation/mosayyebzadeh	2019	cloud	firmware	usenix
 [USENIX Security Symposium 2009] CCCP - Secure Remote Storage for Computational RFIDs.	http://www.usenix.org/events/sec09/tech/full_papers/salajegheh.pdf	2009	embedded	usenix
