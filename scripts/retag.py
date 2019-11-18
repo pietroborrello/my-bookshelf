@@ -39,6 +39,7 @@ ieee
 network
 virtual
 obfuscat
+acsac
 ''' + '\n'.join(str(i) for i in range(2000, 2021))
 
 translations = {
