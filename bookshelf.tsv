@@ -1,5 +1,5 @@
 Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag11	tag12	tag13	tag14
-[2007] Anti-Taint-Analysis: Practical Evasion Techniques Against Information Flow Based Malware Defense	2007	analysis	defense	evasion	malware	taint
+[2007 Technical Report] Anti-Taint-Analysis: Practical Evasion Techniques Against Information Flow Based Malware Defense	http://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.310.435	2007	analysis	defense	evasion	malware	taint
 [ACM Conference on Computer and Communications Security 2009] On the difficulty of software-based attestation of embedded devices.	https://doi.org/10.1145/1653662.1653711	2009	acm	embedded
 [ACM Conference on Computer and Communications Security 2009] Secure in-VM monitoring using hardware virtualization.	https://doi.org/10.1145/1653662.1653720	2009	acm	virtualization
 [ACM Conference on Computer and Communications Security 2010] Mimimorphism - a new approach to binary code obfuscation.	https://doi.org/10.1145/1866307.1866368	2010	acm	obfuscation
@@ -55,6 +55,7 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [CSET @ USENIX Security Symposium 2017] Metrics for runtime detection of allocators in binaries.	https://www.usenix.org/conference/cset17/workshop-program/presentation/degoer	2017	detect	embedded	usenix
 [CSET @ USENIX Security Symposium 2018] BNV - Enabling Scalable Network Experimentation through Bare-metal Network Virtualization.	https://www.usenix.org/conference/cset18/presentation/kannan	2018	network	usenix	virtualization
 [CSET @ USENIX Security Symposium 2019] A Multi-level Fidelity Microgrid Testbed Model for Cybersecurity Experimentation.	https://www.usenix.org/conference/cset19/presentation/ashok	2019	usenix	virtualization
+[CSET @ USENIX Security Symposium 2019] CAERUS - Chronoscopic Assessment Engine for Recovering Undocumented Specifications.	https://www.usenix.org/conference/cset19/presentation/seitz	embedded
 [CSET @ USENIX Security Symposium 2019] Lessons Learned from 10k Experiments to Compare Virtual and Physical Testbeds.	https://www.usenix.org/conference/cset19/presentation/crussell	2019	usenix	virtualization
 [FOCI @ USENIX Security Symposium 2019] Improving Meek With Adversarial Techniques.	https://www.usenix.org/conference/foci19/presentation/sheffey	2019	obfuscation	usenix
 [IEEE Symposium on Security and Privacy 2009] An Epistemic Approach to Coercion-Resistance for Electronic Voting Protocols.	https://doi.org/10.1109/SP.2009.13	2009	ieee	symbolic
@@ -320,10 +321,13 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [USENIX Security Symposium 2018] A Bad Dream - Subverting Trusted Platform Module While You Are Sleeping.	https://www.usenix.org/conference/usenixsecurity18/presentation/han	2018	firmware	trusted	usenix
 [USENIX Security Symposium 2018] A4NT - Author Attribute Anonymity by Adversarial Training of Neural Machine Translation.	https://www.usenix.org/conference/usenixsecurity18/presentation/shetty	2018	obfuscation	usenix
 [USENIX Security Symposium 2018] ACES - Automatic Compartments for Embedded Systems.	https://www.usenix.org/conference/usenixsecurity18/presentation/clements	2018	automatic	embedded	usenix
+[USENIX Security Symposium 2018] ATtention Spanned - Comprehensive Vulnerability Analysis of AT Commands Within the Android Ecosystem.	https://www.usenix.org/conference/usenixsecurity18/presentation/tian	firmware
+[USENIX Security Symposium 2018] CommanderSong - A Systematic Approach for Practical Adversarial Voice Recognition.	https://www.usenix.org/conference/usenixsecurity18/presentation/yuan-xuejing	embedded
 [USENIX Security Symposium 2018] FUZE - Towards Facilitating Exploit Generation for Kernel Use-After-Free Vulnerabilities.	https://www.usenix.org/conference/usenixsecurity18/presentation/wu-wei	2018	kernel	symbolic	usenix	vulnerability
 [USENIX Security Symposium 2018] Formal Security Analysis of Neural Networks using Symbolic Intervals.	https://www.usenix.org/conference/usenixsecurity18/presentation/wang-shiqi	2018	network	symbolic	usenix
 [USENIX Security Symposium 2018] HeapHopper - Bringing Bounded Model Checking to Heap Implementation Security.	https://www.usenix.org/conference/usenixsecurity18/presentation/eckert	2018	symbolic	usenix
 [USENIX Security Symposium 2018] Inception - System-Wide Security Testing of Real-World Embedded Systems Software.	https://www.usenix.org/conference/usenixsecurity18/presentation/corteggiani	2018	embedded	firmware	symbolic	usenix
+[USENIX Security Symposium 2018] Injected and Delivered - Fabricating Implicit Control over Actuation Systems by Spoofing Inertial Sensors.	https://www.usenix.org/conference/usenixsecurity18/presentation/tu	embedded
 [USENIX Security Symposium 2018] Meltdown - Reading Kernel Memory from User Space.	https://www.usenix.org/conference/usenixsecurity18/presentation/lipp	2018	kernel	meltdown	usenix
 [USENIX Security Symposium 2018] NetHide - Secure and Practical Network Topology Obfuscation.	https://www.usenix.org/conference/usenixsecurity18/presentation/meier	2018	network	obfuscation	usenix
 [USENIX Security Symposium 2018] One&Done - A Single-Decryption EM-Based Attack on OpenSSL's Constant-Time Blinded RSA.	https://www.usenix.org/conference/usenixsecurity18/presentation/alam	2018	attack	embedded	usenix
@@ -337,8 +341,10 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [USENIX Security Symposium 2019] AntiFuzz - Impeding Fuzzing Audits of Binary Executables.	https://www.usenix.org/conference/usenixsecurity19/presentation/guler	fuzz	obfuscation	symbolic	taint	usenix
 [USENIX Security Symposium 2019] Discovering and Understanding the Security Hazards in the Interactions between IoT Devices, Mobile Apps, and Clouds on Smart Home Platforms.	https://www.usenix.org/conference/usenixsecurity19/presentation/zhou	cloud	firmware	iot	mobile	usenix
 [USENIX Security Symposium 2019] Exploiting Unprotected I/O Operations in AMD's Secure Encrypted Virtualization.	https://www.usenix.org/conference/usenixsecurity19/presentation/li-mengyuan	2019	usenix	virtualization
+[USENIX Security Symposium 2019] FIRM-AFL - High-Throughput Greybox Fuzzing of IoT Firmware via Augmented Process Emulation.	https://www.usenix.org/conference/usenixsecurity19/presentation/zheng	firmware
 [USENIX Security Symposium 2019] Fuzzification - Anti-Fuzzing Techniques.	https://www.usenix.org/conference/usenixsecurity19/presentation/jung	2019	fuzz	symbolic	taint	usenix
 [USENIX Security Symposium 2019] Identifying Cache-Based Side Channels through Secret-Augmented Abstract Interpretation.	https://www.usenix.org/conference/usenixsecurity19/presentation/wang-shuai	2019	side-channel	symbolic	tracing	usenix
+[USENIX Security Symposium 2019] JEDI - Many-to-Many End-to-End Encryption and Key Delegation for IoT.	https://www.usenix.org/conference/usenixsecurity19/presentation/kumar-sam	embedded
 [USENIX Security Symposium 2019] KEPLER - Facilitating Control-flow Hijacking Primitive Evaluation for Linux Kernel Vulnerabilities.	https://www.usenix.org/conference/usenixsecurity19/presentation/wu-wei	2019	kernel	symbolic	usenix	vulnerability
 [USENIX Security Symposium 2019] Looking from the Mirror - Evaluating IoT Device Security through Mobile Companion Apps.	https://www.usenix.org/conference/usenixsecurity19/presentation/wang-xueqiang	2019	firmware	iot	mobile	usenix
 [USENIX Security Symposium 2019] Protecting Cloud Virtual Machines from Hypervisor and Host Operating System Exploits.	https://www.usenix.org/conference/usenixsecurity19/presentation/li-shih-wei	2019	cloud	operating-system	usenix	virtualization
@@ -347,10 +353,15 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [USENIX Security Symposium 2019] The Art of The Scam - Demystifying Honeypots in Ethereum Smart Contracts.	https://www.usenix.org/conference/usenixsecurity19/presentation/ferreira	2019	symbolic	tracing	usenix
 [USENIX Security Symposium 2019] The KNOB is Broken - Exploiting Low Entropy in the Encryption Key Negotiation Of Bluetooth BR/EDR.	https://www.usenix.org/conference/usenixsecurity19/presentation/antonioli	2019	firmware	usenix
 [USENIX Security Symposium 2019] Utility-Optimized Local Differential Privacy Mechanisms for Distribution Estimation.	https://www.usenix.org/conference/usenixsecurity19/presentation/murakami	2019	obfuscation	usenix
+[USENIX Security Symposium 2019] VRASED - A Verified Hardware/Software Co-Design for Remote Attestation.	https://www.usenix.org/conference/usenixsecurity19/presentation/de-oliveira-nunes	embedded
 [USENIX Security Symposium 2019] simTPM - User-centric TPM for Mobile Devices.	https://www.usenix.org/conference/usenixsecurity19/presentation/chakraborty	2019	firmware	mobile	usenix
+[USENIX Security Symposium 2019] uXOM - Efficient eXecute-Only Memory on ARM Cortex-M.	https://www.usenix.org/conference/usenixsecurity19/presentation/kwon	embedded
+[WOOT @ USENIX Security Symposium 2018] A Feasibility Study of Radio-frequency Retroreflector Attack.	https://www.usenix.org/conference/woot18/presentation/wakabayashi	embedded
+[WOOT @ USENIX Security Symposium 2018] Sensorless, Permissionless Information Exfiltration with Wi-Fi Micro-Jamming.	https://www.usenix.org/conference/woot18/presentation/ogen	embedded
 [WOOT @ USENIX Security Symposium 2018] Spectre Returns! Speculation Attacks using the Return Stack Buffer.	https://www.usenix.org/conference/woot18/presentation/koruyeh	2018	attack	spectre	usenix
 [WOOT @ USENIX Security Symposium 2018] Symbolic Execution of Security Protocol Implementations - Handling Cryptographic Primitives.	https://www.usenix.org/conference/woot18/presentation/vanhoef	2018	symbolic	usenix
 [WOOT @ USENIX Security Symposium 2019] D-TIME - Distributed Threadless Independent Malware Execution for Runtime Obfuscation.	https://www.usenix.org/conference/woot19/presentation/pavithran	2019	malware	obfuscation	usenix
+[WOOT @ USENIX Security Symposium 2019] Taking a Look into Execute-Only Memory.	https://www.usenix.org/conference/woot19/presentation/schink	firmware
 [WOOT @ USENIX Security Symposium 2019] Two methods for exploiting speculative control flow hijacks.	https://www.usenix.org/conference/woot19/presentation/mambretti	2019	meltdown	spectre	usenix
 [WOOT @ USENIX Security Symposium 2019] Unicorefuzz - On the Viability of Emulation for Kernelspace Fuzzing.	https://www.usenix.org/conference/woot19/presentation/maier	2019	fuzz	kernel	usenix	virtualization
 [WOOT @ USENIX Security Symposium 2019] Vacuums in the Cloud - Analyzing Security in a Hardened IoT Ecosystem.	https://www.usenix.org/conference/woot19/presentation/ullrich	2019	cloud	firmware	iot	usenix
