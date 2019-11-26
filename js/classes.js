@@ -16,6 +16,10 @@ class Bookshelf{
         this.item2tags = item2tags;
         this.tag2items = tag2items;
         this.word2items = word2items;
+        if (!localStorage.getItem('checked_elems')) {
+            localStorage.setItem('checked_elems', JSON.stringify([...new Set()]))
+        }
+        this.checked_elems = new Set(JSON.parse(localStorage.getItem('checked_elems')))
     }
 
 }

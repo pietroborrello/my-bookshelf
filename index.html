@@ -11,6 +11,7 @@
 
         <link rel="stylesheet" type="text/css" href="https://rawgit.com/Pixabay/jQuery-tagEditor/master/jquery.tag-editor.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
         <link rel="stylesheet" type="text/css" href="css/index.css">
 
         <script src="https://code.jquery.com/jquery-1.11.1.min.js"></script>
@@ -137,11 +138,20 @@
                 var item_tags = bookshelf.item2tags.get(item);
                 var item_array = Array.from(item_tags);
                 var tag_string = item_array.join(", ");
-                var dot = "<li><a href='" + item.link +
-                    "' title='" + tag_string + "'>" + item.name + "</a></li>";
+                var is_checked = bookshelf.checked_elems.has(item.name)? 'checked' : ''
+                var dot = `<li><input type='checkbox' item_name="${item.name}" ${is_checked} onclick="manage_click(this)"><a href='${item.link}' title='${tag_string}'>${item.name}</a></li>`;
                 list = list + "\n" + dot;
             }
             return "<ul>" + list + "</ul>\n";
+        }
+
+        function manage_click(obj){
+            if (obj.checked){
+                bookshelf.checked_elems.add(obj.getAttribute("item_name"))
+            } else {
+                bookshelf.checked_elems.delete(obj.getAttribute("item_name"))
+            }
+            localStorage.setItem('checked_elems', JSON.stringify([...bookshelf.checked_elems]))
         }
 
         function findItemsFromTagListAND(tags, bookshelf){

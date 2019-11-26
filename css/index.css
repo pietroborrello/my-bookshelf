@@ -40,6 +40,52 @@ body{
     padding: 3px;
 }
 
+ul {
+  list-style: none;
+}
+/*** basic styles ***/
+
+input[type=checkbox], input[type=radio] {
+    cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    outline: 0;
+    display: inline-block;
+    font-family: "Font Awesome 5 Free";
+    font-weight: 900;
+    margin-left: -2em; /* same as padding-left set on li */
+    width: 2em; /* same as padding-left set on li */
+}
+
+input[type=checkbox]:after, input[type=radio]:after {
+    content: "\f111";
+    color: #ddd;
+    display: block;
+    border-radius: 0px;
+}
+
+input[type=radio]:checked:after {
+    content: "\f058";
+    color: #01579b;
+}
+
+input[type=checkbox]:checked:before {
+    position: absolute;
+    content: "\f058";
+    color: #01579b;
+}
+
+li.unstarred:before {
+  content: '\f005';
+  color: #eff0f1;
+  font-family: 'Font Awesome 5 Free';
+  font-weight: 900;
+  display: inline-block;
+  margin-left: -2em; /* same as padding-left set on li */
+  width: 2em; /* same as padding-left set on li */
+}
+
 /* .tag_code.tag_on{
     background-color: #ffffff;
 }
