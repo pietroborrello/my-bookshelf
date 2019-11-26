@@ -1,6 +1,8 @@
 # my-bookshelf
 Collection of books, papers, list of papers, blog or blog posts, articles that I've read/I'm going to read/I would remember that they exist/It is unlikely that I'll read/I'll never read.
 
+Plus some scripts to automatically populate and tag the database based on preferred themes, venues and years.
+
 The list of items is stored in [`bookshelf.tsv`](./bookshelf.tsv) in the following format:
 
     item_name1 \t link1 \t tag1 \t tag2 \t ...
@@ -58,6 +60,10 @@ Tag for topic, e.g.: `algorithms`, `artificial-intelligence`, `blockchain`, `com
 In `deadlinks.tsv` you will find the log of the unsuccessful requests.
 
 - `scripts/dump.py`: download the entire websites/files associated to the URLs.
+
+- `scripts/paper_scraper.py`: automatically collect papers on preferred themes, venues and years from DBLP.
+
+- `scripts/retag.py`: automatically retag database inferring tags from title and abstract.
 
 Run them from the root of the repository.
 
