@@ -380,7 +380,7 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [USENIX Security Symposium 2019] uXOM - Efficient eXecute-Only Memory on ARM Cortex-M.	https://www.usenix.org/conference/usenixsecurity19/presentation/kwon	2019	embedded	usenix
 [WOOT @ USENIX Security Symposium 2018] A Feasibility Study of Radio-frequency Retroreflector Attack.	https://www.usenix.org/conference/woot18/presentation/wakabayashi	2018	attack	embedded	usenix
 [WOOT @ USENIX Security Symposium 2018] Sensorless, Permissionless Information Exfiltration with Wi-Fi Micro-Jamming.	https://www.usenix.org/conference/woot18/presentation/ogen	2018	embedded	usenix
-[WOOT @ USENIX Security Symposium 2018] Spectre Returns! Speculation Attacks using the Return Stack Buffer.	https://www.usenix.org/conference/woot18/presentation/koruyeh	2018	attack	spectre	usenix
+[WOOT @ USENIX Security Symposium 2018] Spectre Returns! Speculation Attacks using the Return Stack Buffer.	https://www.usenix.org/conference/woot18/presentation/koruyeh	2018	attack	spectre	speculative-execution	usenix
 [WOOT @ USENIX Security Symposium 2018] Symbolic Execution of Security Protocol Implementations - Handling Cryptographic Primitives.	https://www.usenix.org/conference/woot18/presentation/vanhoef	2018	symbolic	usenix
 [WOOT @ USENIX Security Symposium 2019] D-TIME - Distributed Threadless Independent Malware Execution for Runtime Obfuscation.	https://www.usenix.org/conference/woot19/presentation/pavithran	2019	malware	obfuscation	usenix
 [WOOT @ USENIX Security Symposium 2019] Taking a Look into Execute-Only Memory.	https://www.usenix.org/conference/woot19/presentation/schink	2019	firmware	usenix
