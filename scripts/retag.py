@@ -40,6 +40,7 @@ network
 virtual
 obfuscat
 acsac
+speculat
 ''' + '\n'.join(str(i) for i in range(2000, 2021))
 
 translations = {
@@ -47,7 +48,8 @@ translations = {
     'virtual': 'virtualization',
     'vulnerabilit': 'vulnerability',
     'trac': 'tracing',
-    'forensic': 'forensics'
+    'forensic': 'forensics',
+    'speculat': 'speculative-execution'
 }
 
 filename = os.path.join(os.path.dirname(
