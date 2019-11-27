@@ -44,6 +44,13 @@
                 <div class="col">
                     <input type="text" id="searchbar" class="searchbar" placeholder="Search..">
                 </div>
+                <div class="col col-md-auto my-auto" style="display: table;">
+                    <label class="switch" title="Show marked only">
+                        <input type="checkbox" title="Show marked only" onclick="toggle_marked_only()">
+                        <span class="slider round" title="Show marked only" ></span>
+                        <label></label>
+                    </label>
+                </div>
             </div>
             <div class="row">
                 <div class="col">
@@ -57,6 +64,7 @@
         var MIN_TOKEN_LEN = 3;
         var filtered_items = new Set()
         var saved_tags = []
+        var marked_only = false
 
         fetch('./bookshelf.tsv')
             .then(function(response) {
@@ -64,6 +72,11 @@
           }).then(function(text){
                 main(text);
           });
+
+        function toggle_marked_only() {
+                marked_only = !marked_only
+                onTagChange(null, null, saved_tags)
+            }
 
 
         function getItemFromLine(line){
@@ -135,10 +148,12 @@
         function buildItemList(items, bookshelf){
             var list = "";
             for (var item of items){
+                var is_checked = bookshelf.checked_elems.has(item.name)? 'checked' : ''
+                if (!is_checked && marked_only)
+                    continue
                 var item_tags = bookshelf.item2tags.get(item);
                 var item_array = Array.from(item_tags);
                 var tag_string = item_array.join(", ");
-                var is_checked = bookshelf.checked_elems.has(item.name)? 'checked' : ''
                 var dot = `<li><input type='checkbox' item_name="${item.name}" ${is_checked} onclick="manage_click(this)"><a href='${item.link}' title='${tag_string}'>${item.name}</a></li>`;
                 list = list + "\n" + dot;
             }
