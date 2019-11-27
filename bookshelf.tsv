@@ -160,9 +160,9 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [IEEE Symposium on Security and Privacy 2019] Self-Encrypting Deception - Weaknesses in the Encryption of Solid State Drives.	https://doi.org/10.1109/SP.2019.00088	2019	firmware	ieee
 [IEEE Symposium on Security and Privacy 2019] SensorID - Sensor Calibration Fingerprinting for Smartphones.	https://doi.org/10.1109/SP.2019.00072	2019	embedded	firmware	ieee	smartphone
 [IEEE Symposium on Security and Privacy 2019] SoK - Security Evaluation of Home-Based IoT Deployments.	https://doi.org/10.1109/SP.2019.00013	2019	embedded	ieee	iot
-[IEEE Symposium on Security and Privacy 2019] Spectre Attacks - Exploiting speculative-execution Execution.	https://doi.org/10.1109/SP.2019.00002	2019	attack	ieee	spectre	speculative-execution
+[IEEE Symposium on Security and Privacy 2019] Spectre Attacks - Exploiting Speculative Execution.	https://doi.org/10.1109/SP.2019.00002	2019	attack	ieee	spectre	speculative-execution
 [IEEE Symposium on Security and Privacy 2019] Tap 'n Ghost - A Compilation of Novel Attack Techniques against Smartphone Touchscreens.	https://doi.org/10.1109/SP.2019.00037	2019	attack	embedded	ieee	smartphone
-[IEEE Symposium on Security and Privacy 2019] The Code That Never Ran - Modeling Attacks on speculative-execution Evaluation.	https://doi.org/10.1109/SP.2019.00047	2019	attack	ieee	spectre	speculative-execution
+[IEEE Symposium on Security and Privacy 2019] The Code That Never Ran - Modeling Attacks on Speculative Evaluation.	https://doi.org/10.1109/SP.2019.00047	2019	attack	ieee	spectre	speculative-execution
 [IEEE Symposium on Security and Privacy 2019] Threshold ECDSA from ECDSA Assumptions - The Multiparty Case.	https://doi.org/10.1109/SP.2019.00024	2019	embedded	ieee
 [IEEE Symposium on Security and Privacy 2019] Towards Automated Safety Vetting of PLC Code in Real-World Plants.	https://doi.org/10.1109/SP.2019.00034	2019	ieee	symbolic
 [IEEE Symposium on Security and Privacy 2019] True2F - Backdoor-Resistant Authentication Tokens.	https://doi.org/10.1109/SP.2019.00048	2019	embedded	firmware	ieee
@@ -246,7 +246,7 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [NDSS 2019] DIAT - Data Integrity Attestation for Resilient Collaboration of Autonomous Systems.	https://www.ndss-symposium.org/ndss-paper/diat-data-integrity-attestation-for-resilient-collaboration-of-autonomous-systems/	2019	embedded	ndss
 [NDSS 2019] Data Oblivious ISA Extensions for Side Channel-Resistant and High Performance Computing.	https://www.ndss-symposium.org/ndss-paper/data-oblivious-isa-extensions-for-side-channel-resistant-and-high-performance-computing/	2019	ndss	side-channel	speculative-execution
 [NDSS 2019] Don't Trust The Locals - Investigating the Prevalence of Persistent Client-Side Cross-Site Scripting in the Wild.	https://www.ndss-symposium.org/ndss-paper/dont-trust-the-locals-investigating-the-prevalence-of-persistent-client-side-cross-site-scripting-in-the-wild/	2019	ndss	taint
-[NDSS 2019] ExSpectre - Hiding Malware in speculative-execution Execution.	https://www.ndss-symposium.org/ndss-paper/exspectre-hiding-malware-in-speculative-execution-execution/	malware	meltdown	ndss	spectre	speculative-execution
+[NDSS 2019] ExSpectre - Hiding Malware in Speculative Execution.	https://www.ndss-symposium.org/ndss-paper/exspectre-hiding-malware-in-speculative-execution/	malware	meltdown	ndss	spectre	speculative-execution
 [NDSS 2019] Ginseng - Keeping Secrets in Registers When You Distrust the Operating System.	https://www.ndss-symposium.org/ndss-paper/ginseng-keeping-secrets-in-registers-when-you-distrust-the-operating-system/	2019	embedded	firmware	ndss	operating-system
 [NDSS 2019] Giving State to the Stateless - Augmenting Trustworthy Computation with Ledgers.	https://www.ndss-symposium.org/ndss-paper/giving-state-to-the-stateless-augmenting-trustworthy-computation-with-ledgers/	2019	ndss	obfuscation
 [NDSS 2019] Neuro-Symbolic Execution - Augmenting Symbolic Execution with Neural Constraints.	https://www.ndss-symposium.org/ndss-paper/neuro-symbolic-execution-augmenting-symbolic-execution-with-neural-constraints/	2019	ndss	symbolic
@@ -380,10 +380,10 @@ Title	Link	tag00	tag01	tag02	tag03	tag04	tag05	tag06	tag07	tag08	tag09	tag10	tag
 [USENIX Security Symposium 2019] uXOM - Efficient eXecute-Only Memory on ARM Cortex-M.	https://www.usenix.org/conference/usenixsecurity19/presentation/kwon	2019	embedded	usenix
 [WOOT @ USENIX Security Symposium 2018] A Feasibility Study of Radio-frequency Retroreflector Attack.	https://www.usenix.org/conference/woot18/presentation/wakabayashi	2018	attack	embedded	usenix
 [WOOT @ USENIX Security Symposium 2018] Sensorless, Permissionless Information Exfiltration with Wi-Fi Micro-Jamming.	https://www.usenix.org/conference/woot18/presentation/ogen	2018	embedded	usenix
-[WOOT @ USENIX Security Symposium 2018] Spectre Returns! Speculation Attacks using the Return Stack Buffer.	https://www.usenix.org/conference/woot18/presentation/koruyeh	2018	attack	spectre	speculative-execution	usenix
+[WOOT @ USENIX Security Symposium 2018] Spectre Returns! Speculation Attacks using the Return Stack Buffer.	https://www.usenix.org/conference/woot18/presentation/koruyeh	2018	attack	spectre	usenix
 [WOOT @ USENIX Security Symposium 2018] Symbolic Execution of Security Protocol Implementations - Handling Cryptographic Primitives.	https://www.usenix.org/conference/woot18/presentation/vanhoef	2018	symbolic	usenix
 [WOOT @ USENIX Security Symposium 2019] D-TIME - Distributed Threadless Independent Malware Execution for Runtime Obfuscation.	https://www.usenix.org/conference/woot19/presentation/pavithran	2019	malware	obfuscation	usenix
 [WOOT @ USENIX Security Symposium 2019] Taking a Look into Execute-Only Memory.	https://www.usenix.org/conference/woot19/presentation/schink	2019	firmware	usenix
-[WOOT @ USENIX Security Symposium 2019] Two methods for exploiting speculative-execution control flow hijacks.	https://www.usenix.org/conference/woot19/presentation/mambretti	2019	meltdown	spectre	speculative-execution	usenix
+[WOOT @ USENIX Security Symposium 2019] Two methods for exploiting speculative control flow hijacks.	https://www.usenix.org/conference/woot19/presentation/mambretti	2019	meltdown	spectre	speculative-execution	usenix
 [WOOT @ USENIX Security Symposium 2019] Unicorefuzz - On the Viability of Emulation for Kernelspace Fuzzing.	https://www.usenix.org/conference/woot19/presentation/maier	2019	fuzz	kernel	usenix	virtualization
 [WOOT @ USENIX Security Symposium 2019] Vacuums in the Cloud - Analyzing Security in a Hardened IoT Ecosystem.	https://www.usenix.org/conference/woot19/presentation/ullrich	2019	cloud	firmware	iot	usenix
