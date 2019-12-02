@@ -41,6 +41,7 @@ virtual
 obfuscat
 acsac
 speculat
+transient
 ''' + '\n'.join(str(i) for i in range(2000, 2021))
 
 translations = {
@@ -49,7 +50,8 @@ translations = {
     'vulnerabilit': 'vulnerability',
     'trac': 'tracing',
     'forensic': 'forensics',
-    'speculat': 'speculative-execution'
+    'speculat': 'transient-execution',
+    'transient': 'transient-execution',
 }
 
 filename = os.path.join(os.path.dirname(
