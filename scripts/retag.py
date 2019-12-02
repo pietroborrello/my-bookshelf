@@ -72,7 +72,7 @@ if __name__ == "__main__":
         tag_list = TAGS.split('\n')
         mangled_title = title.lower().replace(' ', '-')
         for tag in tag_list:
-            if tag in mangled_title and len(current_tags) < 5:
+            if tag in mangled_title and len(current_tags) < 10:
                 if tag in translations:
                     tag = translations[tag]
                 if tag in current_tags:
